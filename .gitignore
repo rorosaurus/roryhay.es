@@ -32,3 +32,8 @@ Icon
 Network Trash Folder
 Temporary Items
 .apdisk
+_posts/.DS_Store
+assets/.DS_Store
+assets/css/.DS_Store
+assets/fonts/.DS_Store
+assets/fonts/font-awesome/.DS_Store
