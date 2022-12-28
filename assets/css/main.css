@@ -1175,6 +1175,8 @@ a.older-posts, a.newer-posts {
   font-size: 18px;
   display: inline-block;
   color: #515151;
+  padding-left: 10px;
+  padding-right: 10px;
   -webkit-transition: -webkit-transform .2s;
   transition: -webkit-transform .2s;
   -o-transition: transform .2s;
