@@ -972,14 +972,14 @@ table tfoot td {
   font-family: 'PT Serif', serif;
   margin: 0 0 10px;
   position: relative;
-  padding-bottom: 15px;
+  padding-bottom: 10px;
   font-size: 25px;
   /* text-transform: uppercase; */
   color: #333030;
   font-weight: 700;
 }
 
-.about .author-name::after {
+/* .about .author-name::after {
   content: "";
   position: absolute;
   left: 50%;
@@ -993,7 +993,7 @@ table tfoot td {
   -webkit-border-radius: 100%;
           border-radius: 100%;
   background-color: #515151;
-}
+} */
 
 .about p {
   font-size: 16px;

@@ -9,11 +9,10 @@ site-twitter: #if your site has a twitter account, enter it here
 # Author Settings
 author: Rory Hayes # add your name
 author-img: rory-hayes.png # add your photo
-about-author: > 
-* Software Enginner
-* Computer Engineer
-* LED and Laser Lighting
-* Right-to-Repair Enthusiast # add description
+about-author1: Software Enginner # add description
+about-author2: Computer Engineer # add description
+about-author3: LED and Laser Lighting # add description
+about-author4: Right-to-Repair Enthusiast # add description
 social-twitter: # add your Twitter handle
 social-facebook: # add your Facebook handle
 social-github: rorosaurus # add your Github handle
