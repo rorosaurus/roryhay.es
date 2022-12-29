@@ -973,7 +973,7 @@ table tfoot td {
   margin: 0 0 10px;
   position: relative;
   padding-bottom: 15px;
-  font-size: 20px;
+  font-size: 25px;
   /* text-transform: uppercase; */
   color: #333030;
   font-weight: 700;
@@ -1151,8 +1151,12 @@ footer .copyright {
 }
 
 .post .post-content .post-date,
-.post .post-content .post-words {
-  font-size: 12px;
+.post .post-content {
+  font-size: 14px;
+}
+
+.post-words {
+  font-size: 14px;
 }
 
 .post .post-content .post-title {
