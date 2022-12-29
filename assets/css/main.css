@@ -1317,6 +1317,7 @@ a.post-tags {
   text-transform: uppercase;
   border: 1px solid #263959;
   background-color: #edf6ff;
+  white-space: nowrap;
 }
 
 a.post-tags:hover {
