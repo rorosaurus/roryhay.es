@@ -969,6 +969,7 @@ table tfoot td {
 }
 
 .about .author-name {
+  text-decoration: none;
   font-family: 'PT Serif', serif;
   margin: 0 0 10px;
   position: relative;
