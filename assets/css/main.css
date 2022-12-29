@@ -1309,6 +1309,20 @@ a.newer-posts:hover {
 }
 
 /* - - - - - - - - - - Tag Styles - - - - - - - - - - */
+.post-tags a {
+  text-decoration: none;
+  font-size: 10px;
+  padding: 5px 10px;
+  margin-left: 5px;
+  color: #263959;
+  text-transform: uppercase;
+  border: 1px solid #263959;
+}
+
+.post-tags a:hover {
+  text-decoration: underline;
+}
+
 .blog-tags {
   width: 100%;
   background-color: #ffffff;
