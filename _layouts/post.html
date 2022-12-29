@@ -21,7 +21,7 @@ layout: main
         <span class="post-words">{% capture words %}{{ content | number_of_words }}{% endcapture %}{% unless words contains "-" %}{{ words | plus: 250 | divided_by: 250 | append: " minute read" }}{% endunless %}&nbsp;&nbsp;&nbsp;—&nbsp;</span>
         <span class="page-tag">
           {% for tag in page.tags %}
-            <a href="{{site.baseurl}}/tags#{{tag}}" class="post-tags">&#35; {{ tag }}</a>
+            <a href="{{site.baseurl}}/blog/tags#{{tag}}" class="post-tags">&#35; {{ tag }}</a>
           {% endfor %}
         </span>
         <!-- <div class="page-date"><span>{{page.date | date: '%b %d, %Y'}}&nbsp;&nbsp;&nbsp;&nbsp;</span></div>
@@ -40,9 +40,9 @@ layout: main
           <a href="https://plus.google.com/share?url={{ site.url }}{{ page.url }}" title="Share on Google+" rel="nofollow" target="_blank">Google+</a>
         </div> -->
         <div class="page-tag">
-          <a href="{{site.baseurl}}" class="post-tags"><i class="fas fa-arrow-left" aria-hidden="true"></i> Back Home</a>&nbsp;&nbsp;&nbsp;Similar Posts:
+          <a href="{{site.url}}" class="post-tags"><i class="fas fa-arrow-left" aria-hidden="true"></i> Back Home</a>&nbsp;&nbsp;&nbsp;Similar Posts:
           {% for tag in page.tags %}
-            <a href="{{site.baseurl}}/tags#{{tag}}" class="post-tags">&#35; {{ tag }}</a>
+            <a href="{{site.baseurl}}/blog/tags#{{tag}}" class="post-tags">&#35; {{ tag }}</a>
           {% endfor %}
         </div>
       </div>

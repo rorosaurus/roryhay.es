@@ -1294,7 +1294,7 @@ a.newer-posts:hover {
   background-color: #ecf0f1;
 }
 
-.page-footer .page-tag a {
+/* .page-footer .page-tag a {
   text-decoration: none;
   font-size: 10px;
   padding: 5px 10px;
@@ -1306,9 +1306,8 @@ a.newer-posts:hover {
 
 .page-footer .page-tag a:hover {
   text-decoration: underline;
-}
+} */
 
-/* - - - - - - - - - - Tag Styles - - - - - - - - - - */
 .post-tags a {
   text-decoration: none;
   font-size: 10px;
@@ -1322,6 +1321,8 @@ a.newer-posts:hover {
 .post-tags a:hover {
   text-decoration: underline;
 }
+
+/* - - - - - - - - - - Tag Styles - - - - - - - - - - */
 
 .blog-tags {
   width: 100%;
