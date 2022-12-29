@@ -8,7 +8,7 @@ layout: default
       <div class="cover-author-image">
         <a href="{{site.url}}/"><img src="{{site.url}}/assets/img/{% if site.author-img %}{{site.author-img}}{% endif %}" alt="{{site.author}}"></a>
       </div>
-      <div class="author-name">{{site.author}}</div>
+      <div class="author-name"><a href="{{site.url}}/">{{site.author}}</a></div>
       <ul style="font-style: italic;
       list-style-type: none;
       font-size: 14px;
@@ -31,7 +31,7 @@ layout: default
   </header> <!-- End Header -->
   <footer>
     <section class="contact">
-      <h3 class="contact-title">Contact me</h3>
+      <h3 class="contact-title">Links</h3>
       <ul>
         {% if site.social-twitter %}
           <li><a href="https://twitter.com/{{ site.social-twitter }}" target="_blank"><i class="fab fa-twitter" aria-hidden="true"></i></a></li>
