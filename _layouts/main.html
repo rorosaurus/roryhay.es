@@ -9,9 +9,10 @@ layout: default
         <a href="{{site.url}}/"><img src="{{site.url}}/assets/img/{% if site.author-img %}{{site.author-img}}{% endif %}" alt="{{site.author}}"></a>
       </div>
       <a href="{{site.url}}/" class="author-name">{{site.author}}</a>
+      <span id="typed-about"></span>
       <ul>
       {% if site.about-author1 %}
-        <li class="typed-about">{{site.about-author1}}</li>
+        <li>{{site.about-author1}}</li>
       {% endif %}
       {% if site.about-author2 %}
         <li>{{site.about-author2}}</li>

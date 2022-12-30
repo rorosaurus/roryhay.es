@@ -114,7 +114,7 @@ table tfoot td {
   position: relative;
 }
 
-.typed-about {
+#typed-about {
   @include typed("I'm walking here!");
 }
 
