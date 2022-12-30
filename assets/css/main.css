@@ -1179,6 +1179,7 @@ footer .copyright {
   font-weight: 400;
   text-decoration: none;
   color: #263959;
+  line-height: 1;
 }
 
 .post .post-content p {
