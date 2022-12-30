@@ -10,9 +10,9 @@ tags: [Hardware, PCB, Mods, Gameboy]
 
 ### [Source Code and Design Files on Github](https://github.com/rorosaurus/gba-sp-usb-c)
 
-![Final result]({{site.url}}/assets/img/gba-sp-usb-c/completed-back-bezel-comparison.png)
+![Final result]({{site.url}}/assets/img/blog/gba-sp-usb-c/completed-back-bezel-comparison.png)
 
-![PCB installed in motherboard]({{site.url}}/assets/img/gba-sp-usb-c/motherboard-front.jpg)
+![PCB installed in motherboard]({{site.url}}/assets/img/blog/gba-sp-usb-c/motherboard-front.jpg)
 
 # Where to Buy
 
