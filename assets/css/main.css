@@ -1303,6 +1303,10 @@ a.newer-posts:hover {
   background-color: #ecf0f1;
 }
 
+.page-tag {
+  line-height: 1.9;
+}
+
 /* .page-footer .page-tag a {
   text-decoration: none;
   font-size: 10px;
