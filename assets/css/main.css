@@ -801,11 +801,13 @@ img + em {
 }
 
 blockquote {
-  border-left: 5px solid #000;
+  border-left: 5px solid #a5d6ff;
   padding-left: 1.1rem;
   margin-left: 1rem;
   font-style: italic;
-  color: #ada8a8;
+  color: #2e2e2e;
+  background-color: #efefef;
+  border-radius: 3px;
 }
 
 pre {
@@ -1171,7 +1173,10 @@ footer .copyright {
 }
 
 .post .post-content .post-title a {
-  font-family: 'PT Serif', serif;
+  /* font-family: 'PT Serif', serif; */
+  margin: 0 0 10px;
+  font-size: 30px;
+  font-weight: 400;
   text-decoration: none;
   color: #263959;
 }
