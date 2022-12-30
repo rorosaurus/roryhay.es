@@ -8,18 +8,9 @@ fig-caption: Goodbye proprietary charging cable!  # Add figcaption (optional)
 tags: [Hardware, PCB, Mods, Gameboy]
 ---
 
-### [Source Code and Design Files on Github](https://github.com/rorosaurus/gba-sp-usb-c)
+![Final result]({{site.url}}/assets/img/blog/gba-sp-usb-c/completed-back-bezel-comparison.png){: width="70%" }
 
-![Final result]({{site.url}}/assets/img/blog/gba-sp-usb-c/completed-back-bezel-comparison.png)
-
-![PCB installed in motherboard]({{site.url}}/assets/img/blog/gba-sp-usb-c/motherboard-front.jpg)
-
-# Where to Buy
-
-* USA: [Buy on Amazon](https://smile.amazon.com/dp/B08L72TZWD) - [(Why Amazon?)](https://github.com/rorosaurus/gba-sp-usb-c/blob/master/why-sell-on-amazon.md)
-* Any other Country: [Buy on Tindie](https://www.tindie.com/products/20612/) - (I will restock occasionally!)
-
-## The truly universal USB-C dream is finally realized for your Game Boy Advance SP!
+# The truly universal USB-C dream is finally realized for your Game Boy Advance SP!
 
 *(Also compatible with the original Nintendo DS!)*
 
@@ -30,6 +21,8 @@ My design is based off [this existing PCB](https://oshpark.com/shared_projects/I
 My PCB works with ````USB-C <-> USB-C```` cables as well, so you can use ANY USB-C cable/charger to charge it! I've also verified it works with ````USB-A -> USB-C```` cables, Quick Charge, and USB-PD! That means if your charger or USB battery pack offers 5V/9V/12V/etc., it will recognize the Game Boy can only accept 5V and charge accordingly.
 
 This product was featured on the [Tindie Blog](https://blog.tindie.com/2020/07/game-boy-advance-sp-usb-c-charging-port/)!
+
+[Source Code and Design Files on Github](https://github.com/rorosaurus/gba-sp-usb-c)!
 
 # Options
 
@@ -59,9 +52,16 @@ Modify your console at your own risk! This product is provided "as is", with no 
 
 Instructions for assembly/installation can be found in [INSTALLATION.md](https://github.com/rorosaurus/gba-sp-usb-c/blob/master/INSTALLATION.md)
 
+![PCB installed in motherboard]({{site.url}}/assets/img/blog/gba-sp-usb-c/motherboard-front.jpg){: width="70%" }
+
 # 3D Printed Spacer
 
 The 3D print-able file to fill in the case gap is [on Thingiverse](https://www.thingiverse.com/thing:4123563).
+
+# Where to Buy
+
+* USA: [Buy on Amazon](https://smile.amazon.com/dp/B08L72TZWD) - [(Why Amazon?)](https://github.com/rorosaurus/gba-sp-usb-c/blob/master/why-sell-on-amazon.md)
+* Any other Country: [Buy on Tindie](https://www.tindie.com/products/20612/) - (I will restock occasionally!)
 
 # License
 If you have improvements, please modify these design files and share any improvements openly/freely with the community (via a pull request or another public repository)!
