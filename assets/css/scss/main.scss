@@ -1,6 +1,7 @@
 @import 'normalize';
 @import 'syntax';
 @import 'variables';
+@import 'typed';
 
 *, *::after, *::before {
   box-sizing: border-box;
@@ -111,6 +112,10 @@ table tfoot td {
 .wrapper {
   max-width: 1250px;
   position: relative;
+}
+
+.typed-about {
+  @include typed("I'm walking here!");
 }
 
 .post, .article-page {
