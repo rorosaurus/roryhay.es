@@ -1183,7 +1183,7 @@ footer .copyright {
 }
 
 .post .post-content p {
-  margin-top: 0;
+  margin-top: 15px;
 }
 
 a.older-posts, a.newer-posts {
@@ -1337,6 +1337,7 @@ a.post-tags {
   border: 1px solid #263959;
   background-color: #edf6ff;
   white-space: nowrap;
+  border-radius: 4px;
 }
 
 a.post-tags:hover {
