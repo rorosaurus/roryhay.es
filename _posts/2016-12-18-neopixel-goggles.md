@@ -1,12 +1,14 @@
 ---
 layout: post
-title: Join the Goggle Squad!
+title: Make your own Neopixel Goggles!
 date: 2016-12-18 13:32:20 +0300
-description: You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. # Add post description (optional)
+description: Learn how to make your own LED goggles and join our squad! # Add post description (optional)
 img: /blog/neopixel-goggles.gif # Add image post (optional)
-fig-caption: # Add figcaption (optional)
+fig-caption: 😵😵😵 # Add figcaption (optional)
 tags: [Programming, Arduino, Mesh, LEDs, Maker]
 ---
+
+> *August 2019 Update*: This project is in it's second iteration! Check out the [mesh-network Goggle Squad, powered by the ESP8266](https://github.com/rorosaurus/esp8266-goggles)!
 
 A few months ago I made some custom LED goggles to light myself up at Burning Man 2016!  Since then I found they also fit in well at concerts and festivals I attend.  Since I keep getting questions about how to make them, I decided to throw together a post with some links and tips!
 
@@ -17,15 +19,15 @@ A few months ago I made some custom LED goggles to light myself up at Burning Ma
 * Cost: ~$40-60
 
 The time investment is really dependent on your proficiency at the required skills and your tendency to be perfectionist with the wiring. :)
-Most of the parts I used are available in https://www.adafruit.com/products/2221[a single kit from Adafruit]!  The main modifications I made on top of this kit are:
+Most of the parts I used are available in [a single kit from Adafruit](https://www.adafruit.com/products/2221)!  The main modifications I made on top of this kit are:
 
-* Added a https://www.adafruit.com/products/727[3 x AAA Battery Holder] to the strap for extended battery life and easy on/off
-* Added two https://smile.amazon.com/Gikfun-12x12x7-3-Tactile-Momentary-Arduino/dp/B01E38OS7K/[push buttons] which wire into PINs on the Trinket to control effects/settings
+* Added a [3 x AAA Battery Holder](https://www.adafruit.com/products/727) to the strap for extended battery life and easy on/off
+* Added two [push buttons](https://smile.amazon.com/Gikfun-12x12x7-3-Tactile-Momentary-Arduino/dp/B01E38OS7K/) which wire into PINs on the Trinket to control effects/settings
 
 ## How to make your own
-You should start by following https://learn.adafruit.com/kaleidoscope-eyes-neopixel-led-goggles-trinket-gemma[this tutorial on Adafruit].  It's very detailed and gets us most of the way there!
+You should start by following [this tutorial on Adafruit](https://learn.adafruit.com/kaleidoscope-eyes-neopixel-led-goggles-trinket-gemma).  It's very detailed and gets us most of the way there!
 
-You'll also need to complete the https://learn.adafruit.com/introducing-trinket[Introducing Trinket] and https://learn.adafruit.com/adafruit-all-about-arduino-libraries-install-use[All About Arduino Libraries] tutorials.  It's mostly just installing pre-requisites to program the Trinket and use the NeoPixel library.
+You'll also need to complete the [Introducing Trinket](https://learn.adafruit.com/introducing-trinket) and [All About Arduino Libraries](https://learn.adafruit.com/adafruit-all-about-arduino-libraries-install-use) tutorials.  It's mostly just installing pre-requisites to program the Trinket and use the NeoPixel library.
 
 My custom code for my goggles is available [on my GitHub](https://github.com/rorosaurus/neopixel-goggles).  It's not perfect (I suspect there are a few things I can do to save more bytes and add more effects) but it's good enough for now!  Some effects are borrowed from NeoPixel demos/examples and other open-source implementations, but a few are my own creation!
 
