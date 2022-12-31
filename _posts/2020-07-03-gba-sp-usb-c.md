@@ -8,14 +8,6 @@ fig-caption: Goodbye proprietary charging cable!  # Add figcaption (optional)
 tags: [Hardware, PCB, Mods, Gameboy]
 ---
 
-{% include image.html 
-    url="https://github.com/rorosaurus/gba-sp-usb-c"
-    max-width="50%"
-    file="/assets/img/blog/gba-sp-usb-c/completed-back-bezel-comparison.png"
-    alt="Final result!"
-    fig-caption="Final result!" 
-%}
-
 ## The truly universal USB-C dream is finally realized for your Game Boy Advance SP!
 
 *(Also compatible with the original Nintendo DS!)*
@@ -25,6 +17,14 @@ Charge your Game Boy Advance SP with USB-C, using any USB-C cable and charger! I
 My design is based off [this existing PCB](https://oshpark.com/shared_projects/I6UOH6gb) that only works with ````USB-A -> USB-C```` cables. In my opinion, if you're gonna future-proof your Game Boy, you shouldn't remain reliant on Type-A!
 
 My PCB works with ````USB-C <-> USB-C```` cables as well, so you can use ANY USB-C cable/charger to charge it! I've also verified it works with ````USB-A -> USB-C```` cables, Quick Charge, and USB-PD! That means if your charger or USB battery pack offers 5V/9V/12V/etc., it will recognize the Game Boy can only accept 5V and charge accordingly.
+
+{% include image.html 
+    url="https://github.com/rorosaurus/gba-sp-usb-c"
+    max-width="50%"
+    file="/assets/img/blog/gba-sp-usb-c/completed-back-bezel-comparison.png"
+    alt="Final result!"
+    fig-caption="Final result!" 
+%}
 
 This product was featured on the [Tindie Blog](https://blog.tindie.com/2020/07/game-boy-advance-sp-usb-c-charging-port/)!
 

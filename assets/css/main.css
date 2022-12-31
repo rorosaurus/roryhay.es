@@ -1269,11 +1269,11 @@ a.newer-posts:hover {
   top: 20px;
   right: 20px;
   padding-left: 20px;
-  color: rgba(255, 255, 255, 0.7);
+  color: rgba(255, 255, 255, 0.9);
   text-shadow: 0 1px 5px rgba(0, 0, 0, 0.2);
   font-weight: 700;
   text-transform: uppercase;
-  font-size: 10px;
+  font-size: 13px;
 }
 
 .page-cover-image .page-image {
