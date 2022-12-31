@@ -1,13 +1,13 @@
-<!-- _includes/image.html -->
-<div class="image-wrapper">
+<figure class="image-wrapper" >
     {% if include.url %}
-    <a href="{{ include.url }}" title="{{ include.title }}" target="_blank">
+        <a href="{{ include.url }}">
     {% endif %}
-        <img src="/{{ include.img }}" alt="{{ include.title }}"/>
+    <img src="{{ include.file }}" style="max-width: {{ include.max-width }};"
+       alt="{{ include.alt }}"/>
     {% if include.url %}
-    </a>
+        </a>
     {% endif %}
     {% if include.fig-caption %}
         <figcaption>{{ include.fig-caption }}</figcaption>
-    {% endif %}
-</div>
+    % endif %}
+ </figure>

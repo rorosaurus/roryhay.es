@@ -8,11 +8,13 @@ fig-caption: Goodbye proprietary charging cable!  # Add figcaption (optional)
 tags: [Hardware, PCB, Mods, Gameboy]
 ---
 
-{% include ../image.html 
-    img = "{{site.url}}/assets/img/blog/gba-sp-usb-c/completed-back-bezel-comparison.png"
-    title = "Final result!"
-    <!-- fig-caption = "Final result!" -->
-    <!-- url = "https://github.com/rorosaurus/gba-sp-usb-c"--> %}
+{% include image.html 
+    url="https://github.com/rorosaurus/gba-sp-usb-c"
+    max-width="70%"
+    file="/assets/img/blog/gba-sp-usb-c/completed-back-bezel-comparison.png"
+    alt="Final result!"
+    fig-caption="Final result!" 
+%}
 
 # The truly universal USB-C dream is finally realized for your Game Boy Advance SP!
 
