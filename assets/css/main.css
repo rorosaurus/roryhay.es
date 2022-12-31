@@ -1443,6 +1443,9 @@ a.post-tags:hover {
   .post .post-content .post-title a {
     font-size: 21px;
   }
+  img {
+    min-width: 60vw;
+  }
 }
 
 /* Small Devices, Tablets */
@@ -1543,7 +1546,7 @@ a.post-tags:hover {
   }
 
   img {
-    min-width: 80vw;
+    min-width: 90vw;
   }
   .image-wrapper {
     text-align: center;
