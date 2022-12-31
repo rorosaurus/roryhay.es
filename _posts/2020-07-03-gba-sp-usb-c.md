@@ -10,13 +10,13 @@ tags: [Hardware, PCB, Mods, Gameboy]
 
 {% include image.html 
     url="https://github.com/rorosaurus/gba-sp-usb-c"
-    max-width="70%"
+    max-width="50%"
     file="/assets/img/blog/gba-sp-usb-c/completed-back-bezel-comparison.png"
     alt="Final result!"
     fig-caption="Final result!" 
 %}
 
-# The truly universal USB-C dream is finally realized for your Game Boy Advance SP!
+## The truly universal USB-C dream is finally realized for your Game Boy Advance SP!
 
 *(Also compatible with the original Nintendo DS!)*
 
@@ -58,7 +58,12 @@ Modify your console at your own risk! This product is provided "as is", with no 
 
 Instructions for assembly/installation can be found in [INSTALLATION.md](https://github.com/rorosaurus/gba-sp-usb-c/blob/master/INSTALLATION.md)
 
-![PCB installed in motherboard]({{site.url}}/assets/img/blog/gba-sp-usb-c/motherboard-front.jpg){: width="70%" }
+{% include image.html 
+    max-width="50%"
+    file="/assets/img/blog/gba-sp-usb-c/motherboard-front.jpg"
+    alt="PCB installed in motherboard"
+    fig-caption="PCB installed in motherboard" 
+%}
 
 # 3D Printed Spacer
 
