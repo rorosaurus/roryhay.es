@@ -30,6 +30,9 @@ layout: default
     <section class="contact">
       <h3 class="contact-title">Links</h3>
       <ul>
+        {% if site.social-vcard %}
+          <li class="vcard"><a href="{{site.social-vcard}}"><i class="far fa-address-card"></i></a></li>
+        {% endif %}
         {% if site.social-twitter %}
           <li><a href="https://twitter.com/{{ site.social-twitter }}" target="_blank"><i class="fab fa-twitter" aria-hidden="true"></i></a></li>
         {% endif %}
@@ -47,9 +50,6 @@ layout: default
         {% endif %}
         {% if site.social-email %}
           <li class="email"><a href="mailto:{{site.social-email}}"><i class="far fa-envelope"></i></a></li>
-        {% endif %}
-        {% if site.social-vcard %}
-          <li class="vcard"><a href="{{site.social-vcard}}"><i class="far fa-address-card"></i></a></li>
         {% endif %}
       </ul>
     </section> <!-- End Section Contact -->
