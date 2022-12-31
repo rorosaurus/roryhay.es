@@ -1443,6 +1443,13 @@ a.post-tags:hover {
   .post .post-content .post-title a {
     font-size: 21px;
   }
+
+  img {
+    min-width: 70vw;
+  }
+  .image-wrapper {
+    text-align: center;
+  }
 }
 
 /* Small Devices, Tablets */
@@ -1505,6 +1512,13 @@ a.post-tags:hover {
   .contact-title, .copyright {
     display: none;
   }
+
+  img {
+    min-width: 80vw;
+  }
+  .image-wrapper {
+    text-align: center;
+  }
 }
 
 /* Extra Small Devices, Phones */
@@ -1533,5 +1547,12 @@ a.post-tags:hover {
   }
   .post .post-content .post-title a {
     font-size: 21px;
+  }
+
+  img {
+    min-width: 80vw;
+  }
+  .image-wrapper {
+    text-align: center;
   }
 }
