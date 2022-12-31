@@ -1234,6 +1234,10 @@ a.newer-posts:hover {
   text-transform: uppercase;
 }
 
+.image-wrapper {
+  text-align: center;
+}
+
 .page-cover-image {
   position: relative;
   padding: 0;
