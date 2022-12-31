@@ -1443,13 +1443,6 @@ a.post-tags:hover {
   .post .post-content .post-title a {
     font-size: 21px;
   }
-
-  img {
-    min-width: 70vw;
-  }
-  .image-wrapper {
-    text-align: center;
-  }
 }
 
 /* Small Devices, Tablets */
