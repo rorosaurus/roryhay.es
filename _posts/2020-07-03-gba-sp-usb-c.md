@@ -20,7 +20,7 @@ My PCB works with ````USB-C <-> USB-C```` cables as well, so you can use ANY USB
 
 {% include image.html 
     url="https://github.com/rorosaurus/gba-sp-usb-c"
-    max-width="50%"
+    max-width="60%"
     file="/assets/img/blog/gba-sp-usb-c/completed-back-bezel-comparison.png"
     alt="Final result!"
     fig-caption="Final result!" 
@@ -59,7 +59,7 @@ Modify your console at your own risk! This product is provided "as is", with no 
 Instructions for assembly/installation can be found in [INSTALLATION.md](https://github.com/rorosaurus/gba-sp-usb-c/blob/master/INSTALLATION.md)
 
 {% include image.html 
-    max-width="50%"
+    max-width="60%"
     file="/assets/img/blog/gba-sp-usb-c/motherboard-front.jpg"
     alt="PCB installed in motherboard"
     fig-caption="PCB installed in motherboard" 
