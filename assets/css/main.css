@@ -936,6 +936,7 @@ table tfoot td {
   height: 100%;
   padding: 10% 10px 20px 10px;
   background-color: #ffffff;
+  overflow: auto;
 }
 
 .about {
@@ -1510,7 +1511,7 @@ a.post-tags:hover {
   }
 
   .post-image {
-    min-width: 90%;
+    min-width: 80%;
   }
   .image-wrapper {
     text-align: center;
