@@ -1443,8 +1443,8 @@ a.post-tags:hover {
   .post .post-content .post-title a {
     font-size: 21px;
   }
-  img {
-    min-width: 60vw;
+  .post-image {
+    min-width: 80%;
   }
 }
 
@@ -1509,11 +1509,13 @@ a.post-tags:hover {
     display: none;
   }
 
-  img {
-    min-width: 70vw;
+  .post-image {
+    min-width: 90%;
   }
   .image-wrapper {
     text-align: center;
+    margin: 0px;
+  }
   }
 }
 
@@ -1545,10 +1547,11 @@ a.post-tags:hover {
     font-size: 21px;
   }
 
-  img {
-    min-width: 70vw;
+  .post-image {
+    min-width: 100%;
   }
   .image-wrapper {
     text-align: center;
+    margin: 0px;
   }
 }
