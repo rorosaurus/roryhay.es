@@ -1375,17 +1375,20 @@ a.social-text:visited {
 }
 
 .toast {
+  opacity: 0;
   display: table;
-  position: relative;
+  position: absolute;
   color: rgb(255, 255, 255);
   border-radius: 10px;
   animation-name: fadeInOpacity;
   animation-iteration-count: 1;
   animation-timing-function: ease-in;
   animation-duration: 0.7s;
-  animation-delay: 1.5s;
+  animation-delay: 2s;
   margin: 0 auto;
-  top: -10%;
+  top: 20px;
+  left: 10px;
+  width: 220px;
 }
 
 .toast-icon {
@@ -1402,6 +1405,9 @@ a.social-text:visited {
   display: table-cell;
   vertical-align: middle;
   padding: 8px;
+  text-align: center;
+  font-size: 14px;
+  font-weight: bold;
 }
 
 @keyframes fadeInOpacity {
@@ -1572,6 +1578,7 @@ a.social-text:visited {
   }
 
   .toast {
+    position: relative;
     margin: 10px auto 20px auto;
   }
 }
