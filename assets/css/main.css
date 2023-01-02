@@ -1375,7 +1375,6 @@ a.social-text:visited {
 }
 
 .toast {
-  opacity: 0;
   display: table;
   position: absolute;
   color: rgb(255, 255, 255);
@@ -1580,6 +1579,7 @@ a.social-text:visited {
   .toast {
     position: relative;
     margin: 10px auto 20px auto;
+    width: 75vw;
   }
 }
 
