@@ -1375,6 +1375,8 @@ a.social-text:visited {
 }
 
 .toast {
+  opacity: 0;
+  margin-top: -30px;
   display: table;
   position: absolute;
   color: rgb(255, 255, 255);
@@ -1384,7 +1386,7 @@ a.social-text:visited {
   animation-timing-function: ease-in;
   animation-duration: 0.7s;
   animation-delay: 2s;
-  margin: 0 auto;
+  /* margin: 0 auto; */
   top: 20px;
   left: 10px;
   width: 220px;
@@ -1412,11 +1414,11 @@ a.social-text:visited {
 @keyframes fadeInOpacity {
   0% {
     opacity: 0;
-        margin-top: -30px;
+    margin-top: -30px;
   }
   100% {
     opacity: 1;
-        margin-top: 0px;
+    margin-top: 0px;
   }
 }
 
@@ -1578,8 +1580,8 @@ a.social-text:visited {
 
   .toast {
     position: relative;
-    margin: 10px auto 20px auto;
-    width: 75vw;
+    margin: 0px auto 30px auto;
+    width: 60vw;
   }
 }
 
