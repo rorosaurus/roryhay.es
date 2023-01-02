@@ -6,11 +6,17 @@ baseurl: "/" # the subpath of your site, e.g. /blog
 url: "https://roryhay.es" # the base hostname & protocol for your site, e.g. http://example.com
 site-twitter: #if your site has a twitter account, enter it here
 
+# Toast message settings
+toast-message: Rory is actively looking for work and available for hire!
+toast-color: 2ECC40
+toast-icon: far fa-check-circle
+
+
 # Author Settings
 author: Rory Hayes # add your name
 author-img: rory-hayes.png # add your photo
-about-author1: Software Enginner # add description
-about-author2: Computer Engineer # add description
+about-author1: Software & Computer Enginner # add description
+about-author2: Available for Hire! # add description
 about-author3: LED and Laser Lighting # add description
 about-author4: Right-to-Repair Enthusiast # add description
 social-twitter: # add your Twitter handle

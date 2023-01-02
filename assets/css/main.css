@@ -1364,6 +1364,7 @@ a.post-tags:hover {
 
 .social-text {
   font-size: 9pt;
+  vertical-align: middle;
 }
 
 a.social-text:link {
@@ -1371,6 +1372,45 @@ a.social-text:link {
 }
 a.social-text:visited {
   text-decoration: none;
+}
+
+.toast {
+  display: table;
+  position: relative;
+  color: rgb(255, 255, 255);
+  border-radius: 10px;
+  animation-name: fadeInOpacity;
+  animation-iteration-count: 1;
+  animation-timing-function: ease-in;
+  animation-duration: 0.7s;
+  animation-delay: 1.5s;
+}
+
+.toast-icon {
+  display: table-cell;
+  vertical-align: middle;
+  padding: 8px;
+  text-align: center;
+  background-color: rgb(0 0 0 / 25%);
+  border-bottom-left-radius: 10px;
+  border-top-left-radius: 10px;
+}
+
+.toast-body {
+  display: table-cell;
+  vertical-align: middle;
+  padding: 8px;
+}
+
+@keyframes fadeInOpacity {
+  0% {
+    opacity: 0;
+        margin-top: -30px;
+  }
+  100% {
+    opacity: 1;
+        margin-top: 0px;
+  }
 }
 
 /* - - - - - - - - - - Tag Styles - - - - - - - - - - */

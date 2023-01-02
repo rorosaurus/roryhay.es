@@ -4,6 +4,16 @@ layout: default
 
 <aside class="sidebar">
   <header>
+    {% if site.about-author1 %}
+    <div class="toast" style="background-color: #{{ toast-color }};">
+      <div class="toast-icon">
+        <i class="{{ toast-icon }}"></i>
+      </div>
+      <div class="toast-body">
+        <span>{{ toast-message }}</span>
+      </div>
+    </div>
+    {% endif %}
     <div class="about">
       <div class="cover-author-image">
         <a href="{{site.url}}/"><img src="{{site.url}}/assets/img/{% if site.author-img %}{{site.author-img}}{% endif %}" alt="{{site.author}}"></a>
@@ -51,10 +61,10 @@ layout: default
       </ul>
       <ul>
         {% if site.social-vcard %}
-        <li class="vcard"><a href="{{site.social-vcard}}" class="social-text"><i class="far fa-address-card"></i><span class="social-text"> vCONTACT</span></a></li>
+        <li class="vcard"><a href="{{site.social-vcard}}" class="social-text"><i class="far fa-address-card"></i><span class="social-text">&nbsp;&nbsp;vCONTACT</span></a></li>
         {% endif %}
         {% if site.social-resume %}
-        <li><a href="{{site.social-resume}}" class="social-text"><i class="far fa-file-alt"></i><span class="social-text"> RESUME</span></a></li>
+        <li><a href="{{site.social-resume}}" class="social-text"><i class="far fa-file-alt"></i><span class="social-text">&nbsp;&nbsp;RESUME</span></a></li>
         {% endif %}
       </ul>
     </section> <!-- End Section Contact -->
