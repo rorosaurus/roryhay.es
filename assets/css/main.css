@@ -1385,7 +1385,7 @@ a.social-text:visited {
   animation-iteration-count: 1;
   animation-timing-function: ease-in;
   animation-duration: 1s;
-  animation-delay: 2s;
+  animation-delay: 1s;
   animation-fill-mode: forwards;
   /* margin: 0 auto; */
   top: -60px;
@@ -1583,7 +1583,7 @@ a.social-text:visited {
   }
   
   .social-text {
-    font-size: 12pt;
+    font-size: 10pt;
   }
 
   .contact ul li a {
