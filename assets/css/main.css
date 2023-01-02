@@ -1391,8 +1391,8 @@ a.social-text:visited {
   top: 20px;
   left: 10px;
   width: 220px;
-  outline-color: rgb(46 204 64 / 25%);
-  outline-style: solid;
+  outline-color: rgb(0 0 0 / 25%);
+  outline-style: auto;
   outline-width: 2px;
 }
 
@@ -1591,9 +1591,10 @@ a.social-text:visited {
   }
 
   .toast {
-    position: relative;
+    /* position: relative; */
     margin: 0px auto 30px auto;
-    width: 60vw;
+    max-width: 50%;
+    /* width: 60vw; */
   }
 }
 

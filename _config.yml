@@ -7,7 +7,7 @@ url: "https://roryhay.es" # the base hostname & protocol for your site, e.g. htt
 site-twitter: #if your site has a twitter account, enter it here
 
 # Toast message settings
-toast-message: Rory is actively looking for work and available for hire!
+toast-message: Rory is available for hire!
 toast-color: 2ECC40
 toast-icon: far fa-check-circle
 
