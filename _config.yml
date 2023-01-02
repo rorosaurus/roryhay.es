@@ -16,8 +16,8 @@ toast-icon: far fa-check-circle
 author: Rory Hayes # add your name
 author-img: rory-hayes.png # add your photo
 about-author1: Software & Computer Enginner # add description
-about-author2: Available for Hire! # add description
-about-author3: LED/Laser Lighting Wizard # add description
+about-author2: Infosec/Privacy/Rights Advocate # add description
+about-author3: LED & Laser Lighting Wizard # add description
 about-author4: Right-to-Repair Evangelist # add description
 
 # Social
@@ -28,7 +28,7 @@ social-linkedin: roryhayes # add your Linkedin handle
 social-discord: 181592072023703552 # add your discord user ID
 social-email: roryohayes@gmail.com # add your Email address
 social-vcard: "/assets/files/Rory Hayes.vcf" # add your vcard link
-social-resume: "https://github.com/rorosaurus/resume" # add your resume link
+social-resume: "https://github.com/rorosaurus/resume/raw/master/Rory%20Hayes%20-%20Resume.pdf" # add your resume link
 
 # Disqus
 discus-identifier: # add your discus identifier
