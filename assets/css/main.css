@@ -940,7 +940,7 @@ table tfoot td {
 }
 
 .about {
-  margin: 0 0 40px;
+  margin: 20px 0 40px;
   text-align: center;
 }
 
@@ -1376,7 +1376,7 @@ a.social-text:visited {
 
 .toast {
   opacity: 0;
-  margin-top: -30px;
+  /* margin-top: -30px; */
   display: table;
   position: absolute;
   color: rgb(255, 255, 255);
@@ -1388,7 +1388,7 @@ a.social-text:visited {
   animation-delay: 2s;
   animation-fill-mode: forwards;
   /* margin: 0 auto; */
-  top: 20px;
+  top: -30px;
   left: 10px;
   width: 220px;
   outline-color: rgb(0 0 0 / 25%);
@@ -1418,11 +1418,12 @@ a.social-text:visited {
 @keyframes fadeInOpacity {
   0% {
     opacity: 0;
-    margin-top: -30px;
+    /* margin-top: -30px; */
   }
   100% {
     opacity: 1;
-    margin-top: 0px;
+    /* margin-top: 0px; */
+    translateY(30px);
   }
 }
 
@@ -1593,8 +1594,7 @@ a.social-text:visited {
   .toast {
     /* position: relative; */
     margin: 0px auto 30px auto;
-    max-width: 50%;
-    /* width: 60vw; */
+    max-width: 80%;
   }
 }
 
