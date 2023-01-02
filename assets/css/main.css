@@ -1384,7 +1384,7 @@ a.social-text:visited {
   animation-name: fadeInOpacity;
   animation-iteration-count: 1;
   animation-timing-function: ease-in;
-  animation-duration: 0.7s;
+  animation-duration: 1s;
   animation-delay: 2s;
   animation-fill-mode: forwards;
   /* margin: 0 auto; */
