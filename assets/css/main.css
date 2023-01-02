@@ -1362,6 +1362,17 @@ a.post-tags:hover {
   background-color: #cce8ff;
 }
 
+.social-text {
+  font-size: 10pt;
+}
+
+a.social-text:link {
+  text-decoration: none;
+}
+a.social-text:visited {
+  text-decoration: none;
+}
+
 /* - - - - - - - - - - Tag Styles - - - - - - - - - - */
 
 .blog-tags {
