@@ -1123,21 +1123,21 @@ footer .copyright {
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
   -webkit-flex-direction: row;
-      -ms-flex-direction: row;
-          flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
   -webkit-box-align: stretch;
   -webkit-align-items: stretch;
-      -ms-flex-align: stretch;
-          align-items: stretch;
+  -ms-flex-align: stretch;
+  align-items: stretch;
   min-height: 11rem;
   -webkit-border-radius: 10px;
-          border-radius: 10px;
+  border-radius: 10px;
   overflow: hidden;
   -webkit-transition: all .3s ease;
   -o-transition: all .3s ease;
   transition: all .3s ease;
   -webkit-box-shadow: 0 1px 1px 0 rgba(31, 35, 46, 0.15);
-          box-shadow: 0 1px 1px 0 rgba(31, 35, 46, 0.15);
+  box-shadow: 0 1px 1px 0 rgba(31, 35, 46, 0.15);
 }
 
 .post:hover {
@@ -1153,7 +1153,7 @@ footer .copyright {
   max-width: 100%;
   min-height: 11rem;
   -webkit-background-size: cover;
-          background-size: cover;
+  background-size: cover;
   background-position: 50% 50%;
 }
 
@@ -1423,14 +1423,14 @@ a.post-tags:hover {
 /* Medium Devices, Desktops */
 @media only screen and (max-width: 992px) {
   .post {
-    width: 48%;
+    width: 98%;
     max-width: 100%;
     margin: 0 0.9% 1.5%;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
     -webkit-flex-direction: column;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
   }
   .post .post-thumbnail {
     width: 100%;
@@ -1516,7 +1516,6 @@ a.post-tags:hover {
   .image-wrapper {
     text-align: center;
     margin: 0px;
-  }
   }
 }
 
