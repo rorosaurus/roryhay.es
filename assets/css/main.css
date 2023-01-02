@@ -1384,6 +1384,8 @@ a.social-text:visited {
   animation-timing-function: ease-in;
   animation-duration: 0.7s;
   animation-delay: 1.5s;
+  margin: 0 auto;
+  top: -10%;
 }
 
 .toast-icon {
@@ -1567,6 +1569,10 @@ a.social-text:visited {
   .image-wrapper {
     text-align: center;
     margin: 0px;
+  }
+
+  .toast {
+    margin: 10px auto 20px auto;
   }
 }
 

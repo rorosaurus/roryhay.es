@@ -3,17 +3,17 @@ layout: default
 ---
 
 <aside class="sidebar">
-  <header>
-    {% if site.about-author1 %}
-    <div class="toast" style="background-color: #{{ toast-color }};">
-      <div class="toast-icon">
-        <i class="{{ toast-icon }}"></i>
-      </div>
-      <div class="toast-body">
-        <span>{{ toast-message }}</span>
-      </div>
+  {% if site.toast-message %}
+  <div class="toast" style="background-color: #{{ site.toast-color }};">
+    <div class="toast-icon">
+      <i class="{{ site.toast-icon }}"></i>
     </div>
-    {% endif %}
+    <div class="toast-body">
+      <span>{{ site.toast-message }}</span>
+    </div>
+  </div>
+  {% endif %}
+    <header>
     <div class="about">
       <div class="cover-author-image">
         <a href="{{site.url}}/"><img src="{{site.url}}/assets/img/{% if site.author-img %}{{site.author-img}}{% endif %}" alt="{{site.author}}"></a>
