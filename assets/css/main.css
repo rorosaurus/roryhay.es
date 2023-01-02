@@ -1581,6 +1581,14 @@ a.social-text:visited {
     text-align: center;
     margin: 0px;
   }
+  
+  .social-text {
+    font-size: 12pt;
+  }
+
+  .contact ul li a {
+    font-size:22px;
+  }
 
   .toast {
     position: relative;
