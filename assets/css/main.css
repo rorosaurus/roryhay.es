@@ -983,6 +983,12 @@ table tfoot td {
   font-weight: 700;
 }
 
+.author-subtitle {
+  margin-bottom: 30px;
+  font-style: normal;
+  font-size: 16px;
+}
+
 /* .about .author-name::after {
   content: "";
   position: absolute;
@@ -1005,6 +1011,7 @@ table tfoot td {
   font-size: 14px;
   padding-inline-start: 0px;
   margin-top: 0px;
+  line-height: 1.7;
 }
 
 .about p {

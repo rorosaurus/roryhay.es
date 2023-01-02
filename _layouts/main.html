@@ -19,18 +19,18 @@ layout: default
         <a href="{{site.url}}/"><img src="{{site.url}}/assets/img/{% if site.author-img %}{{site.author-img}}{% endif %}" alt="{{site.author}}"></a>
       </div>
       <a href="{{site.url}}/" class="author-name">{{site.author}}</a>
+      {% if site.author-subtitle %}
+        <span class="author-subtitle">{{site.author-subtitle}}</span>
+      {% endif %}
       <ul>
       {% if site.about-author1 %}
-        <li style="margin-bottom: 20px;">{{site.about-author1}}</li>
+        <li>{{site.about-author1}}</li>
       {% endif %}
       {% if site.about-author2 %}
         <li>{{site.about-author2}}</li>
       {% endif %}
       {% if site.about-author3 %}
         <li>{{site.about-author3}}</li>
-      {% endif %}
-      {% if site.about-author4 %}
-        <li>{{site.about-author4}}</li>
       {% endif %}
       </ul>
     </div>
