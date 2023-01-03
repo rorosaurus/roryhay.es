@@ -25,9 +25,9 @@ It's classy, sanitary, and environmentally friendly!
 
 Personally, I prefer my card to navigate directly to my website, where the user can download the vCard if they want to add it to their address book. They can also just keep that tab open to read more about me later!
 
-For my project, I bought these NFC cards directly from [AliExpress](https://www.aliexpress.us/item/3256804276946189.html), but you can buy NFC cards from anywhere!
+For my project, I bought these NFC cards directly from [AliExpress](https://www.aliexpress.us/item/3256804276946189.html), but you can buy NFC cards from anywhere! They also come in a variety of sizes if you don't specifically want a buisness card.
 
-The two most popular types of NFC cards you'll encounter are tag213 and tag216. What's the difference?
+The two most popular types of NFC cards you'll encounter are tag213 and tag216. Make sure you use these in your search query! What's the difference between them though?
 
 ### tag213
 tag213 can store 144 bytes, or a URL up to 136 characters. It's a bit cheaper than tag216, but ideal if you're just storing a short URL.
@@ -46,10 +46,13 @@ I personally used [TagWriter](https://play.google.com/store/apps/details?id=com.
 
 ## Etching the card
 
-Since I knew I wanted to etch my card with my laser, I went with the black walnut veneer. The darker pigment will allow the material to absorb more laser light (and energy), so I can get away with etching on my 1 Watt LaserCube.
+Since I knew I wanted to etch my card with my laser, I went with the black walnut veneer. The darker pigment will allow the material to absorb more laser light (and energy), so I have the best absorbtion when etching with my small 1 Watt LaserCube.
 
 Check your local makerspace to see if they have a laser cutter/engraver you can use! Regardless of what laser you use, make sure you know how to use it safely! Ventillation is essential, and laser-specific eye protection too if there is any risk of reflections!
 
-I designed the card layout in Photoshop, exported as a .png, and imported into LaserOS for raster etching. You'll need to try a few times to find the right balance of laser power and speed, so make sure you have some spares!
+After measuring the dimensions of the card, I designed the card layout in Photoshop, exported as a .png, and imported into LaserOS for raster etching. You'll need to try a few times to find the right balance of laser power and speed, so make sure you have some spares!
 
 Note: Lasercubes don't give the cleanest results compared to a full size CO2 laser with a moving XY carriage. Since the laser light is arriving on the card at different angles, it's less crisp and focused. I'd recommend a proper laser engraver if you can find one near you!
+
+## Good luck!
+I can't wait to see what you make!
