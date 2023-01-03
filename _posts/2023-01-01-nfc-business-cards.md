@@ -17,7 +17,7 @@ It's classy, sanitary, and environmentally friendly!
 {% include video.html 
     file="/assets/img/blog/nfc-business-cards/video-demo.mp4"
     fig-caption="A quick demo of how easy it is!"
-    max-width="60%"
+    max-width="90%"
     max-height="1000px"
     video-attributes="muted autoplay loop"
 %}
