@@ -31,15 +31,10 @@ For my project, I bought these NFC cards directly from [AliExpress](https://www.
 The two most popular types of NFC cards you'll encounter are tag213 and tag216. Make sure you use these in your search query! What's the difference between them though?
 
 ### tag213
-tag213 can store 144 bytes, or a URL up to 136 characters. It's a bit cheaper than tag216, but ideal if you're just storing a short URL.
+tag213 can store 144 bytes, or a URL up to 136 characters. It's a bit cheaper than tag216, but ideal if you're just storing a short URL. For reference, storing only my URL (https://roryhay.es) requires 23 bytes on the card.
 
 ### tag216
-tag216 can store 888 bytes, or a URL up to 872 characters. It's more expensive than tag213, but ideal if you're storing a long URL or a virtual contact card (vCard).
-
-### Example payload sizes
-For reference, storing only my URL (https://roryhay.es) requires 23 bytes on the card.
-
-If I wanted to write a vCard to the NFC, it would require 252 bytes for my Name, Phone, Email, Website, and a small Note, requiring tag216.
+tag216 can store 888 bytes, or a URL up to 872 characters. It's a little more expensive than tag213, but ideal if you're storing a long URL or a virtual contact card (vCard). If I write my vCard, it would require 252 bytes for my Name, Phone, Email, Website, and a small Note, requiring tag216.
 
 ## Programming the card
 
@@ -53,11 +48,9 @@ Check your local makerspace to see if they have a laser cutter/engraver you can 
 
 After measuring the dimensions of the card, I designed the card layout in Photoshop, exported as a .png, and imported into LaserOS for raster etching. You'll need to try a few times to find the right balance of laser power and speed, so make sure you have some spares!
 
-```
-Note: Lasercubes don't give the cleanest results. Since the laser light is arriving on the card at different angles, it's less crisp and focused. You can see the result of this in the thin NFC logo and the smaller phone number text, which is muddied.
+*Note: Lasercubes don't give the cleanest results. Since the laser light is arriving on the card at different angles, it's less crisp and focused. You can see the result of this in the thin NFC logo and the smaller phone number text, which is muddied.*
 
-I'd recommend using a proper full size laser engraver/cutter with a moving XY carriage, if you can find one near you! Then the laser is perfectly perpendicular for the whole engraving! On these lasers, I would recommend starting with low power and high speed, then adjusting the speed lower and power higher with repeated runs on your first card.
-```
+*I'd recommend using a proper full size laser engraver/cutter with a moving XY carriage, if you can find one near you! Then the laser is perfectly perpendicular for the whole engraving! On these lasers, I would recommend starting with low power and high speed, then adjusting the speed lower and power higher with repeated runs on your first card.*
 
 ## Good luck!
 I can't wait to see what you make!
