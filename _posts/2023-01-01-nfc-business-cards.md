@@ -8,9 +8,9 @@ fig-caption: Just tap their phone to exchange your information!  # Add figcaptio
 tags: [Maker, Laser, NFC]
 ---
 
-For my latest job hunt, I decided to do away with single-use business cards altogether! I just want to make one and carry it with me.
+For my latest job hunt, I decided to do away with single-use business cards altogether! I just want to make **one** and carry it with me.
 
-For about $2/card, you can DIY your own homemade smart business card! Scan it with any phone and my website will open, where you can collect my contact info and read about my projects!
+For about $2/card, you can DIY your own low volume, homemade smart business cards! Scan the card with any phone and my website will open, where you can collect my contact info and read about my projects!
 
 It's classy, sanitary, and environmentally friendly!
 
@@ -24,9 +24,9 @@ It's classy, sanitary, and environmentally friendly!
 
 ## What to keep in mind when buying NFC cards
 
-Personally, I prefer my card to navigate directly to my website, where the user can download the vCard if they want to add it to their address book. They can also just keep that tab open to read more about me later!
+Personally, I prefer my card to navigate directly to my website, where the user can choose whether download the vCard. (Otherwise they have to import/save/find the contact and navigate to my website from there!) They can also just keep my tab open to read more about me later!
 
-For my project, I bought these NFC cards directly from [AliExpress](https://www.aliexpress.us/item/3256804276946189.html), but you can buy NFC cards from anywhere! They also come in a variety of sizes if you don't specifically want a buisness card.
+For my project, I bought these NFC cards directly from [AliExpress](https://www.aliexpress.us/item/3256804276946189.html), but you can buy NFC cards from anywhere! They also come in a variety of shapes/sizes if you don't specifically want a buisness card.
 
 The two most popular types of NFC cards you'll encounter are tag213 and tag216. Make sure you use these in your search query! What's the difference between them though?
 
@@ -47,9 +47,9 @@ I personally used [TagWriter](https://play.google.com/store/apps/details?id=com.
 
 ## Etching the card
 
-Since I knew I wanted to etch my card with my laser, I went with the black walnut veneer. The darker pigment will allow the material to absorb more laser light (and energy), so I have the best absorbtion when etching with my small 1 Watt LaserCube.
+Since I knew I wanted to etch my card with my laser, I went with the black walnut veneer. The darker pigment will allow the material to absorb more laser light (and energy), so I have the best absorption when etching with my small 1 Watt LaserCube.
 
-Check your local makerspace to see if they have a laser cutter/engraver you can use! Regardless of what laser you use, make sure you know how to use it safely! Ventillation is essential, and laser-specific eye protection too if there is any risk of reflections!
+Check your local makerspace to see if they have a laser cutter/engraver you can use! Regardless of what laser you use, make sure you know how to use it safely! Ventilation is essential, and laser-specific eye protection too if there is any risk of reflections!
 
 After measuring the dimensions of the card, I designed the card layout in Photoshop, exported as a .png, and imported into LaserOS for raster etching. You'll need to try a few times to find the right balance of laser power and speed, so make sure you have some spares!
 
