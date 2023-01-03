@@ -11,8 +11,8 @@ tags: [Maker, Laser, NFC]
 $2 homemade smart business card! Scan with any phone for my website and contact info! Classy, reusable (only need one!), sanitary, and environmentally friendly!
 
 {% include video.html 
-    url="https://github.com/rorosaurus/gba-sp-usb-c"
-    max-width="60%"
     file="/assets/img/blog/nfc-business-cards/video-demo.mp4"
-    fig-caption="A quick demo!" 
+    fig-caption="A quick demo of how easy it is!"
+    max-width="60%"
+    video-attributes="muted autoplay loop"
 %}
