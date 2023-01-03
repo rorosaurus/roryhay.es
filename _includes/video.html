@@ -1,0 +1,14 @@
+<figure class="image-wrapper" >
+    {% if include.url %}
+        <a href="{{ include.url }}">
+    {% endif %}
+    <video controls autoplay>
+        <source src="{{ include.file }}" type="video/mp4" style="max-width: {{ include.max-width }};">
+      </video>
+    {% if include.url %}
+        </a>
+    {% endif %}
+    {% if include.fig-caption %}
+        <figcaption>{{ include.fig-caption }}</figcaption>
+    {% endif %}
+ </figure>
