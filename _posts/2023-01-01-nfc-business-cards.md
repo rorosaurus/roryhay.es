@@ -53,7 +53,11 @@ Check your local makerspace to see if they have a laser cutter/engraver you can 
 
 After measuring the dimensions of the card, I designed the card layout in Photoshop, exported as a .png, and imported into LaserOS for raster etching. You'll need to try a few times to find the right balance of laser power and speed, so make sure you have some spares!
 
-Note: Lasercubes don't give the cleanest results compared to a full size CO2 laser with a moving XY carriage. Since the laser light is arriving on the card at different angles, it's less crisp and focused. I'd recommend a proper laser engraver if you can find one near you!
+```
+Note: Lasercubes don't give the cleanest results. Since the laser light is arriving on the card at different angles, it's less crisp and focused. You can see the result of this in the thin NFC logo and the smaller phone number text, which is muddied.
+
+I'd recommend using a proper full size laser engraver/cutter with a moving XY carriage, if you can find one near you! Then the laser is perfectly perpendicular for the whole engraving! On these lasers, I would recommend starting with low power and high speed, then adjusting the speed lower and power higher with repeated runs on your first card.
+```
 
 ## Good luck!
 I can't wait to see what you make!
