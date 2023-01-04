@@ -44,11 +44,11 @@ I personally used [TagWriter](https://play.google.com/store/apps/details?id=com.
 
 Since I knew I wanted to etch my card with my laser, I went with the black walnut veneer. The darker pigment will allow the material to absorb more laser light (and energy), so I have the best absorption when etching with my small 1 Watt LaserCube.
 
-Check your local makerspace to see if they have a laser cutter/engraver you can use! Regardless of what laser you use, make sure you know how to use it safely! Ventilation is essential, and laser-specific eye protection too if there is any risk of reflections!
+Check your [local Makerspace](https://makerspaces.make.co/) to see if they have a laser cutter/engraver you can use! Regardless of what laser you use, make sure you know how to use it safely! Ventilation is essential, and laser-specific eye protection too if there is any risk of reflections!
 
 After measuring the dimensions of the card, I designed the card layout in Photoshop, exported as a .png, and imported into LaserOS for raster etching. You'll need to try a few times to find the right balance of laser power and speed, so make sure you have some spares!
 
-*Note: Lasercubes don't give the cleanest results. Since the laser light is arriving on the card at different angles, it's less crisp and focused. You can see the result of this in the thin NFC logo and the smaller phone number text, which is muddied.*
+*Note: LaserCubes don't give the cleanest results. Since the laser light is arriving on the card at different angles, it's less crisp and focused. You can see the result of this in the thin NFC logo and the smaller phone number text, which is muddied.*
 
 *I'd recommend using a proper full size laser engraver/cutter with a moving XY carriage, if you can find one near you! Then the laser is perfectly perpendicular for the whole engraving! On these lasers, I would recommend starting with low power and high speed, then adjusting the speed lower and power higher with repeated runs on your first card.*
 
