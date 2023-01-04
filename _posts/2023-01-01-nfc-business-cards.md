@@ -36,6 +36,9 @@ tag213 can store 144 bytes, or a URL up to 136 characters. It's a bit cheaper th
 ### tag216
 tag216 can store 888 bytes, or a URL up to 872 characters. It's a little more expensive than tag213, but ideal if you're storing a long URL or a virtual contact card (vCard). If I write my vCard, it would require 252 bytes for my Name, Phone, Email, Website, and a small Note, requiring tag216.
 
+### tag215
+Not super relevant for this project, but I just wanted to mention: tag215 is compatible with [amiibo](https://www.nintendo.com/amiibo/)! You can use them to backup or write amiibo, but you should search for that how-to elsewhere online!
+
 ## Programming the card
 
 I personally used [TagWriter](https://play.google.com/store/apps/details?id=com.nxp.nfc.tagwriter&gl=US) on my Android device. You should be able to install many third party NFC read/writing apps from your app store to write the desired information to your card!
