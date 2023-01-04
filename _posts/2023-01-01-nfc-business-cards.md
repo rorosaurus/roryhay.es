@@ -26,7 +26,7 @@ It's classy, sanitary, and environmentally friendly!
 
 Personally, I prefer my card to navigate directly to my website, where the user can choose whether download the vCard. (Otherwise they have to import/save/find the contact and navigate to my website from there!) They can also just keep my tab open to read more about me later!
 
-For my project, I bought these NFC cards directly from [AliExpress](https://www.aliexpress.us/item/3256804276946189.html), but you can buy NFC cards from anywhere! They also come in a variety of shapes/sizes if you don't specifically want a buisness card.
+For my project, I bought these NFC cards directly from [AliExpress](https://www.aliexpress.us/item/3256804276946189.html), but you can buy NFC cards from anywhere! They also come in a variety of shapes/sizes if you don't specifically want a business card.
 
 The two most popular types of NFC cards you'll encounter are tag213 and tag216. Make sure you use these in your search query! What's the difference between them though?
 
