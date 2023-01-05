@@ -46,6 +46,6 @@ When I realized that the Flipper LCD was 128x64px (the same resolution I chose f
 
 [Easy Web Updater](https://lab.flipper.net/?url=https://roryhay.es/assets/files/furret-zero-unleashed/furret-zero-unleashed-023.tgz&channel=release-cfw&version=furret-unleashed-023)
 
-[Manual Install Instructions](https://github.com/rorosaurus/furret-zero-unleashed/documentation/HowToInstall.md)
+[Manual Install Instructions](https://github.com/rorosaurus/furret-zero-unleashed/blob/dev/documentation/HowToInstall.md)
 
 ## Happy hacking! Let me know what you think!
