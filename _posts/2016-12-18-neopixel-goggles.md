@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Make your own Neopixel Goggles!
+title: Make your own Neopixel Goggles
 date: 2016-12-18 13:32:20 +0300
 description: Learn how to make your own LED goggles and join our squad! # Add post description (optional)
 img: blog/neopixel-goggles.gif # Add image post (optional)

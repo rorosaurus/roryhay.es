@@ -1,6 +1,6 @@
 ---
 layout: post
-title: $2 DIY custom NFC business cards!
+title: $2 DIY custom NFC business cards
 date: 2023-01-01 13:32:20 +0300
 description: Help the environment and your hustle! # Add post description (optional)
 img: blog/nfc-business-cards/nfc-business-card.jpg # Add image post (optional)

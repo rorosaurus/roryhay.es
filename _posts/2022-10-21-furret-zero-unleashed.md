@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Furret Zero Unleashed!
+title: Furret Zero Unleashed
 date: 2022-10-21 13:32:20 +0300
 description: Custom flipper firmware that adds Furret animations! # Add post description (optional)
 img: blog/furret-zero-unleashed/qflip.gif # Add image post (optional)
