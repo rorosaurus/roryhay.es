@@ -24,13 +24,13 @@ For example, when Alesha needed a friend to watch her cat, her apartment complex
     video-attributes="muted controls autoplay loop"
 %}
 
-I'm excited to keep learning and testing everything I can get my hands on! Transit cards, amiibos, IR codes, RFID fuzzing, you name it! On top of that, the [BadUSB/RubberDucky](https://docs.flipperzero.one/bad-usb) and [GPIO expansion boards](https://docs.flipperzero.one/gpio-and-modules) potential for testing computers, Wi-Fi, Bluetooth HID devices, and more!
+I'm excited to keep learning and testing everything I can get my hands on! Transit cards, amiibos, IR codes, RFID fuzzing, you name it! On top of that, the [BadUSB/RubberDucky](https://docs.flipperzero.one/bad-usb) and [GPIO expansion boards](https://docs.flipperzero.one/gpio-and-modules) create nearly endless potential for testing computers, Wi-Fi, Bluetooth HID devices, and more!
 
 {% include image.html 
     max-width="70%"
     file="/assets/img/blog/furret-zero-unleashed/Flipper-Zero-Case-and-Cable.jpg"
-    alt="Ready for adventure with matching silicone case and stealth USB-A to C cable!"
-    fig-caption="Ready for adventure with matching silicone case and stealth USB-A to C cable!"
+    alt="Ready for any adventure - with screen protector, silicone case, and stealth USB-A to C cable!"
+    fig-caption="Ready for any adventure - with screen protector, silicone case, and stealth USB-A to C cable!"
 %}
 
 ## "But like, why make this custom firmware?"
