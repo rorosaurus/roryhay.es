@@ -12,7 +12,7 @@ I created a custom [Flipper Zero](https://flipperzero.one/) firmware, forked fro
 
 ## What's so exciting about this nerdy Tamagotchi?
 
-When a thoughtful friend gifted me a Flipper, I was surprised and excited! Sometimes your friends know you better than you know yourself! 😅 This tool is something I've always wanted to build myself (with a lesser scope), so it's been thrilling to dive in and learn all about these security technologies and how they work. (And how often companies penny-pinch at the cost of physical security.) And that's before you get to the [BadUSB/RubberDucky](https://docs.flipperzero.one/bad-usb) and [GPIO expansion boards](https://docs.flipperzero.one/gpio-and-modules) potential for digital attacks!
+When a thoughtful friend gifted me a Flipper, I was surprised and excited! Sometimes your friends know you better than you know yourself! 😅 Thank you Austin!! 💜 This tool is something I've always wanted to build myself (with a lesser scope), so it's been thrilling to dive in and learn all about these security technologies and how they work.
 
 For example, when Alesha needed a friend to watch her cat, her apartment complex issued her a spare card key. Using my Flipper, I compared that key with her original to find that they issued a new identifier for this spare! Good security! Now if the spare is lost or copied, that identifier can be marked as untrusted without impacting Alesha's main key. It's a small detail but one that definitely builds confidence in where you live!
 
@@ -22,6 +22,15 @@ For example, when Alesha needed a friend to watch her cat, her apartment complex
     max-width="90%"
     max-height="1000px"
     video-attributes="muted controls autoplay loop"
+%}
+
+I'm excited to keep learning and testing everything I can get my hands on! Transit cards, amiibos, IR codes, RFID fuzzing, you name it! On top of that, the [BadUSB/RubberDucky](https://docs.flipperzero.one/bad-usb) and [GPIO expansion boards](https://docs.flipperzero.one/gpio-and-modules) potential for testing computers, Wi-Fi, Bluetooth HID devices, and more!
+
+{% include image.html 
+    max-width="70%"
+    file="/assets/img/blog/furret-zero-unleashed/Flipper-Zero-Case-and-Cable.jpg"
+    alt="Ready for adventure with matching silicone case and stealth USB-A to C cable!"
+    fig-caption="Ready for adventure with matching silicone case and stealth USB-A to C cable!"
 %}
 
 ## "But like, why make this custom firmware?"
