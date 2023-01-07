@@ -18,31 +18,38 @@ For example, when Alesha needed a friend to watch her cat, her apartment complex
 
 {% include video.html 
     file="/assets/img/blog/furret-zero-unleashed/RFID-demo.mp4"
-    fig-caption="Demonstrating RFID emulation of previously read RFID!"
-    max-width="90%"
-    max-height="1000px"
     video-attributes="muted controls autoplay loop"
+    fig-caption="Demonstrating RFID emulation of previously read RFID!"
+    <!-- url="example.com" -->
+    <!-- alt="link to example.com" -->
+    <!-- max-width="80%" -->
+    <!-- max-height="1000px"   -->
 %}
 
 I'm excited to keep learning and testing everything I can get my hands on! Transit cards, amiibos, IR codes, RFID fuzzing, you name it! On top of that, the [BadUSB/RubberDucky](https://docs.flipperzero.one/bad-usb) and [GPIO expansion boards](https://docs.flipperzero.one/gpio-and-modules) create nearly endless potential for testing computers, Wi-Fi, Bluetooth HID devices, and more!
 
 {% include image.html 
-    max-width="70%"
     file="/assets/img/blog/furret-zero-unleashed/Flipper-Zero-Case-and-Cable.jpg"
-    alt="Ready for any adventure - with screen protector, silicone case, and stealth USB-A to C cable!"
     fig-caption="Ready for any adventure - with screen protector, silicone case, and stealth USB-A to C cable!"
+    <!-- url="example.com" -->
+    <!-- alt="link to example.com" -->
+    <!-- max-width="80%" -->
+    <!-- max-height="1000px"   -->
 %}
 
 ## "But like, why make this custom firmware?"
 
 When I realized that the Flipper LCD was 128x64px (the same resolution I chose for my [Furret Totem](https://github.com/rorosaurus/FurretTotem) project) I knew what had to be done! It wasn't very tricky to re-render my .gif files into dithered monochrome, separate the frames, and compile them for Flipper. Now others can enjoy these animations too!
 
+### I give you: [Furret-Zero-Unleashed](https://github.com/rorosaurus/furret-zero-unleashed)!
+
 {% include image.html 
-    url="https://github.com/rorosaurus/furret-zero-unleashed"
-    max-width="70%"
     file="/assets/img/blog/furret-zero-unleashed/he-hack.gif"
-    alt="Try the firmware to see the other animations!"
     fig-caption="Try the firmware to see the other animations!"
+    url="https://github.com/rorosaurus/furret-zero-unleashed"
+    alt="link to Furret-Zero-Unleashed Github repository"
+    <!-- max-width="80%" -->
+    <!-- max-height="1000px"   -->
 %}
 
 ## What's included

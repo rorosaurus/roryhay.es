@@ -19,11 +19,12 @@ My design is based off [this existing PCB](https://oshpark.com/shared_projects/I
 My PCB works with ````USB-C <-> USB-C```` cables as well, so you can use ANY USB-C cable/charger to charge it! I've also verified it works with ````USB-A -> USB-C```` cables, Quick Charge, and USB-PD! That means if your charger or USB battery pack offers 5V/9V/12V/etc., it will recognize the Game Boy can only accept 5V and charge accordingly.
 
 {% include image.html 
-    url="https://github.com/rorosaurus/gba-sp-usb-c"
-    max-width="60%"
     file="/assets/img/blog/gba-sp-usb-c/completed-back-bezel-comparison.png"
-    alt="Final result!"
-    fig-caption="Final result!" 
+    fig-caption="Final result!"
+    url="https://github.com/rorosaurus/gba-sp-usb-c"
+    alt="link to github repository with source design files"
+    <!-- max-width="80%" -->
+    <!-- max-height="1000px"   -->
 %}
 
 This product was featured on the [Tindie Blog](https://blog.tindie.com/2020/07/game-boy-advance-sp-usb-c-charging-port/)!
@@ -59,10 +60,12 @@ Modify your console at your own risk! This product is provided "as is", with no 
 Instructions for assembly/installation can be found in [INSTALLATION.md](https://github.com/rorosaurus/gba-sp-usb-c/blob/master/INSTALLATION.md)
 
 {% include image.html 
-    max-width="60%"
     file="/assets/img/blog/gba-sp-usb-c/motherboard-front.jpg"
-    alt="PCB installed in motherboard"
     fig-caption="PCB installed in motherboard" 
+    <!-- url="example.com" -->
+    <!-- alt="link to example.com" -->
+    <!-- max-width="80%" -->
+    <!-- max-height="1000px"   -->
 %}
 
 # 3D Printed Spacer

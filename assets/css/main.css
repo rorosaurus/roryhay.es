@@ -1224,6 +1224,10 @@ a.newer-posts:hover {
   padding: 20px;
 }
 
+h2 {
+  text-align: center;
+}
+
 .header-page {
   text-align: center;
   margin: 10px 0;

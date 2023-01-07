@@ -16,10 +16,12 @@ It's classy, sanitary, and environmentally friendly!
 
 {% include video.html 
     file="/assets/img/blog/nfc-business-cards/video-demo.mp4"
-    fig-caption="A quick demo of how easy it is!"
-    max-width="90%"
-    max-height="1000px"
     video-attributes="muted autoplay loop"
+    fig-caption="A quick demo of how easy it is!"
+    <!-- url="example.com" -->
+    <!-- alt="link to example.com" -->
+    <!-- max-width="80%" -->
+    <!-- max-height="1000px"   -->
 %}
 
 ## What to keep in mind when buying NFC cards
