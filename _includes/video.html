@@ -1,14 +1,14 @@
 <figure style="text-align:center;" >
     {% if include.url %}
-        <a href="{{ include.url }}">
+    <a href="{{ include.url }}">
     {% endif %}
     <video {{ include.video-attributes }} style="max-width: {{ include.max-width }}; max-height: {{ include.max-height }};">
         <source src="{{ include.file }}" type="video/mp4">
-      </video>
+    </video>
     {% if include.url %}
-        </a>
+    </a>
     {% endif %}
     {% if include.fig-caption %}
-        <figcaption>{{ include.fig-caption }}</figcaption>
+        <figcaption class="caption">{{ include.fig-caption }}</figcaption>
     {% endif %}
  </figure>

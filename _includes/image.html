@@ -2,12 +2,20 @@
     {% if include.url %}
         <a href="{{ include.url }}">
     {% endif %}
-    <img src="{{ include.file }}" style="max-width: {{ include.max-width }};" class="post-image"
-       alt="{{ include.alt }}"/>
-    {% if include.url %}
-        </a>
-    {% endif %}
+    
+    <img src="{{ include.file }}" style="
+
+    {% if include.max-width %} max-width: {{ include.max-width }};
+    {% else %} max-width: 80%; {% endif %}
+
+    {% if include.max-height %} max-height: {{ include.max-height }};
+    {% else %} max-height: 1000px; {% endif %}
+
+    " class="post-image" {% if include.alt %} alt="{{ include.alt }}" {% endif %}/>
+    
+    {% if include.url %}</a>{% endif %}
+
     {% if include.fig-caption %}
-        <figcaption>{{ include.fig-caption }}</figcaption>
+        <figcaption class="caption">{{ include.fig-caption }}</figcaption>
     {% endif %}
  </figure>
