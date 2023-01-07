@@ -1,12 +1,20 @@
 <figure style="text-align:center;" >
     {% if include.url %}
-    <a href="{{ include.url }}">
+        <a href="{{ include.url }}">
     {% endif %}
-    <video {{ include.video-attributes }} style="max-width: {{ include.max-width }}; max-height: {{ include.max-height }};">
+    <video {{ include.video-attributes }} style="
+    
+    {% if include.max-width %} max-width: {{ include.max-width }};
+    {% else %} max-width: 80%; {% endif %}
+
+    {% if include.max-height %} max-height: {{ include.max-height }};
+    {% else %} max-height: 1000px; {% endif %}
+
+    " {% if include.alt %} alt="{{ include.alt }}" {% endif %}>
         <source src="{{ include.file }}" type="video/mp4">
     </video>
     {% if include.url %}
-    </a>
+        </a>
     {% endif %}
     {% if include.fig-caption %}
         <figcaption class="caption">{{ include.fig-caption }}</figcaption>
