@@ -23,8 +23,8 @@ My PCB works with ````USB-C <-> USB-C```` cables as well, so you can use ANY USB
     fig-caption="Final result!"
     url="https://github.com/rorosaurus/gba-sp-usb-c"
     alt="link to github repository with source design files"
-    <!-- max-width="80%" -->
-    <!-- max-height="1000px"   -->
+    # max-width="80%"
+    # max-height="1000px"  
 %}
 
 This product was featured on the [Tindie Blog](https://blog.tindie.com/2020/07/game-boy-advance-sp-usb-c-charging-port/)!
