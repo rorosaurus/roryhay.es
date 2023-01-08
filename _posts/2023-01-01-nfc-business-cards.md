@@ -53,5 +53,4 @@ After measuring the dimensions of the card, I designed the card layout in Photos
 
 *I'd recommend using a proper full size laser engraver/cutter with a moving XY carriage, if you can find one near you! Then the laser is perfectly perpendicular for the whole engraving! On these lasers, I would recommend starting with low power and high speed, then adjusting the speed lower and power higher with repeated runs on your first card.*
 
-## Good luck!
-I can't wait to see what you make!
+## Good luck! I can't wait to see what you make!

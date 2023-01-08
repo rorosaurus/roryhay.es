@@ -5,6 +5,7 @@ date: 2022-10-21 13:32:20 +0300
 description: Custom flipper firmware that adds Furret animations! # Add post description (optional)
 img: blog/furret-zero-unleashed/qflip.gif # Add image post (optional)
 fig-caption: he hack! (..the world!)  # Add figcaption (optional)
+github-repo: "https://github.com/rorosaurus/furret-zero-unleashed" # Add github repo (optional)
 tags: [Furret, Flipper, NFC, RFID, Security]
 ---
 

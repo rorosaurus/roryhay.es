@@ -19,6 +19,9 @@ layout: main
         <h1 class="page-title">{{page.title}}</h1>
         <span class="post-date">{{page.date | date: '%b %d, %Y'}}&nbsp;&nbsp;&nbsp;—&nbsp;</span>
         <span class="post-words">{% capture words %}{{ content | number_of_words }}{% endcapture %}{% unless words contains "-" %}{{ words | plus: 250 | divided_by: 250 | append: " minute read" }}{% endunless %}&nbsp;&nbsp;&nbsp;—&nbsp;</span>
+        {% if page.github-repo %}
+        <span><button onclick="window.location.href='{{page.github-repo}}';"><i class="fab fa-github"></i> Github Repo</button>&nbsp;&nbsp;&nbsp;—&nbsp;</span>
+        {% endif %}
         <span class="page-tag">
           {% for tag in page.tags %}
             <a href="{{site.baseurl}}/blog/tags#{{tag}}" class="post-tags">&#35; {{ tag }}</a>
