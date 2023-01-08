@@ -1,3 +1,17 @@
+{% comment %} Example include!
+
+{% include video.html 
+    file="/assets/img/blog/example.mp4"
+    video-attributes="muted controls autoplay loop"
+    fig-caption="Text underneath"
+    url="example.com"
+    alt="link to example.com"
+    max-width="80%"
+    max-height="1000px"  
+%}
+
+{% endcomment %}
+
 <figure style="text-align:center;" >
     {% if include.url %}
         <a href="{{ include.url }}">
