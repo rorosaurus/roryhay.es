@@ -5,6 +5,7 @@ date: 2023-01-01 13:32:20 +0300
 description: Help the environment and your hustle! # Add post description (optional)
 img: blog/nfc-business-cards/nfc-business-card.jpg # Add image post (optional)
 fig-caption: Just tap their phone to exchange your information!  # Add figcaption (optional)
+github-repo: # Add github repo (optional)
 tags: [Maker, Laser, NFC]
 ---
 

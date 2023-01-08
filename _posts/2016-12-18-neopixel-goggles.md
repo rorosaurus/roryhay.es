@@ -5,6 +5,7 @@ date: 2016-12-18 13:32:20 +0300
 description: Learn how to make your own LED goggles and join our squad! # Add post description (optional)
 img: blog/neopixel-goggles.gif # Add image post (optional)
 fig-caption: 😵 Feeling dizzy yet? 😵 # Add figcaption (optional)
+github-repo: https://github.com/rorosaurus/esp8266-goggles # Add github repo (optional)
 tags: [Programming, Arduino, Mesh, LEDs, Maker]
 ---
 

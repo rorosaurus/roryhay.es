@@ -5,6 +5,7 @@ date: 2020-07-03 13:32:20 +0300
 description: I designed a small PCB you can use to modify your console. # Add post description (optional)
 img: blog/gba-sp-usb-c/completed-test.jpg # Add image post (optional)
 fig-caption: Goodbye proprietary charging cable!  # Add figcaption (optional)
+github-repo: https://github.com/rorosaurus/gba-sp-usb-c # Add github repo (optional)
 tags: [Hardware, PCB, Mods, Gameboy]
 ---
 

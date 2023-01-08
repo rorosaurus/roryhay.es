@@ -1235,6 +1235,7 @@ h2.post-title {
 .header-page {
   text-align: center;
   margin: 10px 0;
+  line-height: 2.2;
 }
 
 .header-page .page-title {
