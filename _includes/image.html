@@ -1,3 +1,17 @@
+{% comment %}
+INCLUDE IMAGE TEMPLATE
+
+{% include image.html 
+    file="/assets/img/blog/example.jpg"
+    fig-caption="Text underneath"
+    url="example.com"
+    alt="link to example.com"
+    max-width="80%"
+    max-height="1000px"  
+%}
+
+{% endcomment %}
+
 <figure class="image-wrapper" >
     {% if include.url %}
         <a href="{{ include.url }}">
