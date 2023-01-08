@@ -1228,6 +1228,10 @@ h2 {
   text-align: center;
 }
 
+h2.post-title {
+  text-align: left;
+}
+
 .header-page {
   text-align: center;
   margin: 10px 0;
