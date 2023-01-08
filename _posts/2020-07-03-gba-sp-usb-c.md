@@ -23,8 +23,8 @@ My PCB works with ````USB-C <-> USB-C```` cables as well, so you can use ANY USB
     fig-caption="Final result!"
     url="https://github.com/rorosaurus/gba-sp-usb-c"
     alt="link to github repository with source design files"
-    # max-width="80%"
-    # max-height="1000px"  
+    {% comment %}max-width="80%"{% endcomment %}
+    {% comment %}max-height="1000px"{% endcomment %}
 %}
 
 This product was featured on the [Tindie Blog](https://blog.tindie.com/2020/07/game-boy-advance-sp-usb-c-charging-port/)!
@@ -62,10 +62,10 @@ Instructions for assembly/installation can be found in [INSTALLATION.md](https:/
 {% include image.html 
     file="/assets/img/blog/gba-sp-usb-c/motherboard-front.jpg"
     fig-caption="PCB installed in motherboard" 
-    <!-- url="example.com" -->
-    <!-- alt="link to example.com" -->
-    <!-- max-width="80%" -->
-    <!-- max-height="1000px"   -->
+    {% comment %} url="example.com" {% endcomment %}
+    {% comment %} alt="link to example.com" {% endcomment %}
+    {% comment %} max-width="80%" {% endcomment %}
+    {% comment %} max-height="1000px" {% endcomment %}
 %}
 
 # 3D Printed Spacer
