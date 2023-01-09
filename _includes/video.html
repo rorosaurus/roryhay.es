@@ -7,8 +7,8 @@ INCLUDE VIDEO TEMPLATE
     fig-caption="Text underneath"
     url="example.com"
     alt="link to example.com"
-    max-width="80%"
-    max-height="1000px"  
+    max-width="90%"
+    max-height="800px"  
 %}
 
 {% endcomment %}
@@ -18,8 +18,8 @@ INCLUDE VIDEO TEMPLATE
         <a href="{{ include.url }}">
     {% endif %}
     <video {{ include.video-attributes }} style="
-    {% if include.max-width %} max-width: {{ include.max-width }};{% else %} max-width: 80%; {% endif %}
-    {% if include.max-height %} max-height: {{ include.max-height }};{% else %} max-height: 1000px; {% endif %}
+    {% if include.max-width %} max-width: {{ include.max-width }};{% else %} max-width: 90%; {% endif %}
+    {% if include.max-height %} max-height: {{ include.max-height }};{% else %} max-height: 800px; {% endif %}
     " {% if include.alt %} alt="{{ include.alt }}" {% endif %}>
         <source src="{{ include.file }}" type="video/mp4">
     </video>
