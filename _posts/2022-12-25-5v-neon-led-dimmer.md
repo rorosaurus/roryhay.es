@@ -19,7 +19,7 @@ I had all the parts/tools within arms reach, so why not prototype and test it ri
     max-width="90%"
 %}
 
-So the strips recieve the +5 and GND directly from the USB port. That means the switch probably isn't hiding any smart components, it's just a switch! There are resistors across the LED strips to help even out the brightness, but they seem to have selected quite an agressive amperage/brightness for the fixture as a whole. We could add a single resistor in series with the +5V wire to fix the amperage allowed to flow according to Ohm's Law:
+So the strips receive the +5 and GND directly from the USB port. That means the switch probably isn't hiding any smart components, it's just a switch! There are resistors across the LED strips to help even out the brightness, but they seem to have selected quite an aggressive amperage/brightness for the fixture as a whole. We could add a single resistor in series with the +5V wire to fix the amperage allowed to flow according to Ohm's Law:
 
 ## Voltage(V) = Current(I) x Resistance(R)
 
@@ -31,7 +31,7 @@ With a breadboard, a collection of potentiometers, and my trusty USB -> alligato
 
 {% include video.html 
     file="/assets/img/blog/5v-neon-led-dimmer/dimmer-demo.mp4"
-    video-attributes="muted autoplay loop"
+    video-attributes="muted controls autoplay loop"
     fig-caption="Verifying which potentiometer provides the desired brightness adjustment sensitivity."
 %}
 
