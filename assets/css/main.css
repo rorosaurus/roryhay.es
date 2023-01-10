@@ -1607,6 +1607,8 @@ a.social-text:visited {
     position: relative;
     margin: 0px auto 30px auto;
     max-width: 80%;
+    top: 0px;
+    left: 0px;
   }
 }
 
