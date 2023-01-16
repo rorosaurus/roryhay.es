@@ -1457,6 +1457,7 @@ a.social-text:visited {
 .blog-tags h2 {
   color: #263959;
   margin: 10px 0;
+  text-align: left;
 }
 
 .tags {
@@ -1607,6 +1608,8 @@ a.social-text:visited {
     position: relative;
     margin: 0px auto 30px auto;
     max-width: 80%;
+    top: 0px;
+    left: 0px;
   }
 }
 
