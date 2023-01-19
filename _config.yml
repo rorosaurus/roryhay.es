@@ -10,6 +10,7 @@ site-twitter: #if your site has a twitter account, enter it here
 toast-message: Rory is available for hire!
 toast-color: 2ECC40
 toast-icon: far fa-check-circle
+toast-url: "https://rorosaurus.github.io/resume/Rory%20O%20Hayes%20-%20Resume.pdf"
 
 
 # Author Settings
