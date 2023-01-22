@@ -34,7 +34,7 @@ I'm excited to keep learning and testing everything I can get my hands on! Trans
 
 When I realized that the Flipper LCD was 128x64px (the same resolution I chose for my [Furret Totem](https://github.com/rorosaurus/FurretTotem) project) I knew what had to be done! It wasn't very tricky to re-render my .gif files into dithered monochrome, separate the frames, and compile them for Flipper. Now others can enjoy these animations too!
 
-### I give you: [Furret-Zero-Unleashed](https://github.com/rorosaurus/furret-zero-unleashed)!
+## I give you: [Furret-Zero-Unleashed](https://github.com/rorosaurus/furret-zero-unleashed)!
 
 {% include image.html 
     file="/assets/img/blog/furret-zero-unleashed/he-hack.gif"

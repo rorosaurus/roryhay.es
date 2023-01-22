@@ -13,11 +13,11 @@ Okay, here's my quick soapbox on **Silicone Conformal Coating**! This is easily 
 
 I use Silicone Conformal Coating on almost all of my projects, especially if they are intended for outdoor use where robustness is important!
 
-### Electrically insulating
+## Electrically Insulating
 
 It's electrically insulating! After careful application and letting it dry, your electronics can be effectively waterproof! Plus, you don't need to worry about anything getting out of place and shorting out!  I've seen this used to make drones fly underwater!
 
-### UV Light
+## Blacklight Reactive
 
 You can use UV light to identify where it's been applied! It makes verification of application really easy! Plus it looks cool!
 
@@ -25,7 +25,7 @@ Just avoid applying the coating to USB ports, other connectors, or buttons. Anyt
 
 I'd also avoid getting it on your hands!
 
-### A little gluey?
+## A Little Gluey
 
 Conformal coating gets a bit gooey/tacky while drying, so keep that in mind.
 
@@ -33,18 +33,18 @@ This is usually very useful, since it can provide some mild relieve strain on so
 
 If you seal in entire components, you gain a bit of shockproof hardening as well!
 
-### Easy removal
+## Painless Removal
 
 Best of all, conformal coating vaporizes with the heat of a soldering iron! So it's not permanent, causing no issues if you need to dive back in later and reflow anything!
 
-### Don't breathe the fumes
+## Don't Breathe The Fumes
 
 * Don't breathe the fumes.
     * Make sure you're using this and letting it dry in a well-ventilated area!
     * Don't breathe the vapor when removing it with a soldering iron!
 * **Don't breathe the fumes!**
 
-### Purchase options
+## Purchase options
 
 You can probably find this product elsewhere online, but here's some Amazon links. I'm very satisfied with the company MG Chemicals. I'd recommend you look up the datasheet for the specific variant you buy!
 

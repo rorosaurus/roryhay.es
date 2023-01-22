@@ -30,7 +30,7 @@ This product was featured on the [Tindie Blog](https://blog.tindie.com/2020/07/g
 
 [Source Code and Design Files on Github](https://github.com/rorosaurus/gba-sp-usb-c)!
 
-# Options
+## Options
 
 To reduce confusion and simplify filling orders, I've consolidated the options into just one offering which satisfies 70% of orders. I go into [a bit more detail here.](https://github.com/rorosaurus/gba-sp-usb-c/blob/master/why-sell-on-amazon.md)
 
@@ -38,7 +38,7 @@ I will assemble the components for you before shipping. You only have to desolde
 
 I will include a small 3D printed part to fill in the gap in the case created by the smaller USB-C port. It will friction-fit snugly, or you can use glue/epoxy to keep it in place. Some post-processing (sanding) might be necessary for the cleanest look.
 
-# Compatibility
+## Compatibility
 
 This design works for the AGS-001 and AGS-101.
 
@@ -46,15 +46,15 @@ This design is compatible with [3.5mm headphone jack mods](https://github.com/ro
 
 It also works on the original (fat) Nintendo DS, NTR-001. Now your Phat GBA Macro can use USB-C as well!
 
-# Charge Speed
+## Charge Speed
 
 This console's original charger (AGS-002) outputs up to 320mA at 5.2V. According to the USB-C spec, this mod will allow charging at up to 500mA at 5V. This mod will not result in any charging slowdown compared to the original charger.
 
-# Disclaimer
+## Disclaimer
 
 Modify your console at your own risk! This product is provided "as is", with no warranty - express or implied. That said, if you have any issues or questions, don't hesitate to reach out!
 
-# Installation
+## Installation
 
 Instructions for assembly/installation can be found in [INSTALLATION.md](https://github.com/rorosaurus/gba-sp-usb-c/blob/master/INSTALLATION.md)
 
@@ -63,26 +63,26 @@ Instructions for assembly/installation can be found in [INSTALLATION.md](https:/
     fig-caption="PCB installed in motherboard" 
 %}
 
-# 3D Printed Spacer
+## 3D Printed Spacer
 
 The 3D print-able file to fill in the case gap is [on Thingiverse](https://www.thingiverse.com/thing:4123563).
 
-# Where to Buy
+## Where to Buy
 
 * USA: [Buy on Amazon](https://smile.amazon.com/dp/B08L72TZWD) - [(Why Amazon?)](https://github.com/rorosaurus/gba-sp-usb-c/blob/master/why-sell-on-amazon.md)
 * Any other Country: [Buy on Tindie](https://www.tindie.com/products/20612/) - (I will restock occasionally!)
 
-# License
+## License
 If you have improvements, please modify these design files and share any improvements openly/freely with the community (via a pull request or another public repository)!
 
 You are not permitted to profit off of this design or use it in any commercial venture.
 
 [Full license information.](https://github.com/rorosaurus/gba-sp-usb-c/blob/master/LICENSE.md)
 
-# Thanks
+## Thanks
 Thank you to [makho](https://www.youtube.com/channel/UC5FYpo9lFqK1Y7wqjPuANFw) and [BlindEye/Hidarite](https://www.tindie.com/stores/hidarite/) for the original PCB inspiration, installation video, and STL file!
 
-# Other Gameboy Mods
+## Other Gameboy Mods
 
 [Mods - Game Boy Subreddit Wiki](https://www.reddit.com/r/GameBoy/wiki/mods)
 
