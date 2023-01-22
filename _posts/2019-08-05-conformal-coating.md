@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Silicone Conformal Coating, the SuperTool
+title: "My favorite tool: Silicone Conformal Coating"
 date: 2019-08-05 13:32:20 +0300
 description: Rory's soapbox about the wonders of using conformal coating in your projects! # Add post description (optional)
 img: blog/conformal-coating-uv.jpg # Add image post (optional)
