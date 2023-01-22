@@ -13,7 +13,7 @@ tags: [ESP, Programming, Arduino, Mesh, LEDs, Maker]
 
 This project contains code and instructions to build a squad of rechargable LED goggles that automatically synchronize their animations with each other!  You can change the code parameters slightly to work with different LED strip types or lengths!
 
-{% include video.html s
+{% include video.html 
     file="/assets/img/blog/esp8266-goggle-squad/sync-demo.mp4"
     video-attributes="muted controls autoplay loop"
     fig-caption="Demonstrating syncing two separate devices!"
