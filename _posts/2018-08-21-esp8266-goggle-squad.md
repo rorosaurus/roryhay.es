@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Mesh-network LED Goggle Squad
-date: 2018-09-06 13:32:20 +0300
+date: 2018-08-21 13:32:20 +0300
 description: Learn how to join our squad and make your own LED goggles! # Add post description (optional)
 img: blog/esp8266-goggle-squad/demo.jpg # Add image post (optional)
 fig-caption: Sync arbitrary LED strips together! # Add figcaption (optional)

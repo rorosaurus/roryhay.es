@@ -9,7 +9,7 @@ github-repo: # Add github repo (optional)
 tags: [Programming, Arduino, LEDs, Maker]
 ---
 
-> ***August 2019 Update***: This project is in its second iteration! Check out the [mesh-network Goggle Squad, powered by the ESP8266](https://roryhay.es/blog/esp8266-goggle-squad)!
+> ***August 2018 Update***: This project is in its second iteration! Check out the [mesh-network Goggle Squad, powered by the ESP8266](https://roryhay.es/blog/esp8266-goggle-squad)!
 
 A few months ago I made some custom LED goggles to light myself up at events!  I found they fit in well at concerts and festivals I attend!  Since I keep getting questions about how to make them, I decided to throw together a post with some links and tips!
 
