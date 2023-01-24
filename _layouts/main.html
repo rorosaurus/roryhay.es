@@ -4,6 +4,7 @@ layout: default
 
 <aside class="sidebar">
   {% if site.toast-message %}
+  {% if site.toast-url %}<a href="{{site.toast-url}}" target="_blank">{% endif %}
   <div class="toast" style="background-color: #{{ site.toast-color }};">
     <div class="toast-icon">
       <i class="{{ site.toast-icon }}"></i>
@@ -12,6 +13,7 @@ layout: default
       <span>{{ site.toast-message }}</span>
     </div>
   </div>
+  {% if site.toast-url %}</a>{% endif %}
   {% endif %}
     <header>
     <div class="about">
@@ -49,7 +51,7 @@ layout: default
           <li><a href="{{ site.social-calendar }}" target="_blank"><i class="far fa-calendar-alt" aria-hidden="true"></i></a></li>
         {% endif %}
         {% if site.social-github %}
-          <li class="github"><a href="http://github.com/{{site.social-github}}" target="_blank"><i class="fab fa-github"></i></a></li>
+          <li class="github"><a href="https://github.com/{{site.social-github}}" target="_blank"><i class="fab fa-github"></i></a></li>
         {% endif %}
         {% if site.social-linkedin %}
           <li class="linkedin"><a href="https://in.linkedin.com/in/{{site.social-linkedin}}" target="_blank"><i class="fab fa-linkedin"></i></a></li>

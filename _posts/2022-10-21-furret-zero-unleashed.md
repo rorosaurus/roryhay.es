@@ -4,9 +4,9 @@ title: Furret Zero Unleashed
 date: 2022-10-21 13:32:20 +0300
 description: Custom flipper firmware that adds Furret animations! # Add post description (optional)
 img: blog/furret-zero-unleashed/qflip.gif # Add image post (optional)
-fig-caption: he hack! (..the world!)  # Add figcaption (optional)
+fig-caption: he hack! (..the planet!)  # Add figcaption (optional)
 github-repo: "https://github.com/rorosaurus/furret-zero-unleashed" # Add github repo (optional)
-tags: [Furret, Flipper, NFC, RFID, Security]
+tags: [Furret, Flipper, NFC, RFID, Security, Hardware]
 ---
 
 I created a custom [Flipper Zero](https://flipperzero.one/) firmware, forked from [DarkFlippers/unleashed-firmware](https://github.com/DarkFlippers/unleashed-firmware), which adds some custom animations and QoL fixes to the already endless potential granted by Unleashed! I'll occasionally update this firmware to keep up with Unleashed releases.
@@ -34,8 +34,6 @@ I'm excited to keep learning and testing everything I can get my hands on! Trans
 
 When I realized that the Flipper LCD was 128x64px (the same resolution I chose for my [Furret Totem](https://github.com/rorosaurus/FurretTotem) project) I knew what had to be done! It wasn't very tricky to re-render my .gif files into dithered monochrome, separate the frames, and compile them for Flipper. Now others can enjoy these animations too!
 
-### I give you: [Furret-Zero-Unleashed](https://github.com/rorosaurus/furret-zero-unleashed)!
-
 {% include image.html 
     file="/assets/img/blog/furret-zero-unleashed/he-hack.gif"
     fig-caption="Try the firmware to see the other animations!"
@@ -49,10 +47,4 @@ When I realized that the Flipper LCD was 128x64px (the same resolution I chose f
 * Added 7 custom Furret animations to shuffle into the idle animation pool
 * Imported (and tweaked) [custom Pokemon frames](https://github.com/rorosaurus/furret-zero-unleashed/commit/a29b4cecd711cc64992431160c28a52aca07e448) for iButton, Sub-GHz, RFID, NFC, and updates
 
-## How to install
-
-[Easy Web Updater](https://lab.flipper.net/?url=https://roryhay.es/assets/files/furret-zero-unleashed/furret-zero-unleashed-023.tgz&channel=release-cfw&version=furret-unleashed-023)
-
-[Manual Install Instructions](https://github.com/rorosaurus/furret-zero-unleashed/blob/dev/documentation/HowToInstall.md)
-
-## Happy hacking! Let me know what you think!
+## [Install here!](https://github.com/rorosaurus/furret-zero-unleashed#install) Happy hacking! Let me know what you think!

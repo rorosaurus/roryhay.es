@@ -2,14 +2,14 @@
 layout: post
 title: Make your own Neopixel Goggles
 date: 2016-12-18 13:32:20 +0300
-description: Learn how to make your own LED goggles and join our squad! # Add post description (optional)
+description: Learn how to make your own LED goggles! # Add post description (optional)
 img: blog/neopixel-goggles.gif # Add image post (optional)
 fig-caption: 😵 Feeling dizzy yet? 😵 # Add figcaption (optional)
-github-repo: https://github.com/rorosaurus/esp8266-goggles # Add github repo (optional)
-tags: [Programming, Arduino, Mesh, LEDs, Maker]
+github-repo: # Add github repo (optional)
+tags: [Programming, Arduino, LEDs, Maker]
 ---
 
-> ***August 2019 Update***: This project is in its second iteration! Check out the [mesh-network Goggle Squad, powered by the ESP8266](https://github.com/rorosaurus/esp8266-goggles)!
+> ***August 2018 Update***: This project is in its second iteration! Check out the [mesh-network Goggle Squad, powered by the ESP8266](https://roryhay.es/blog/esp8266-goggle-squad)!
 
 A few months ago I made some custom LED goggles to light myself up at events!  I found they fit in well at concerts and festivals I attend!  Since I keep getting questions about how to make them, I decided to throw together a post with some links and tips!
 
