@@ -54,13 +54,12 @@ After measuring the dimensions of the card, I designed the card layout in Photos
 
 I suspect you can program your NFC card with your phone!
 
-Android 4.0 (Ice Cream Sandwich) introduced NFC in 2011, and the hardware is usually included on most mid-high end phones. Do a quick search if you aren't sure!
+* Android 4.0 (Ice Cream Sandwich) introduced NFC in 2011, and the hardware is usually included on most mid-high end phones. Do a quick search if you aren't sure!
+* iPhone 7 and later got NFC tag write support in 2014, with iOS 13 or newer.
 
-iPhone 7 and later got NFC tag write support in 2014, with iOS 13 or newer.
+Next, decide what you want your NFC card to do when someone taps it!
 
-Next, you can use any third party NFC writer apps from your app store! Decide what you want your NFC card to do, then choose an app to program with!
-
-What can it do? Pick one! First two are my favorites.
+What can it do? Pick one! (First two are my favorites.)
 
 * Create a new contact with your information already filled out
 * Open a website URL directly in the browser
@@ -69,7 +68,7 @@ What can it do? Pick one! First two are my favorites.
 * Display some plain text
 * And more!
 
-Here's a couple apps I can recommend tp write the desired tag information:
+And finally, here's some apps I can recommend to write the desired tag information/behavior:
 
 ### NFC TagWriter by NXP
 
