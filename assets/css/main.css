@@ -1390,6 +1390,12 @@ a.social-text:visited {
   text-decoration: none;
 }
 
+.calendar {
+  border-width: 0;
+  height: 89vh;
+  width: 80vw;
+}
+
 .toast {
   opacity: 0;
   display: table;
@@ -1610,6 +1616,10 @@ a.social-text:visited {
     max-width: 80%;
     top: 0px;
     left: 0px;
+  }
+
+  .calendar {
+    width: 95vw;
   }
 }
 
