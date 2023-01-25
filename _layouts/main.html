@@ -4,7 +4,7 @@ layout: default
 
 <aside class="sidebar">
   {% if site.toast-message %}
-  {% if site.toast-url %}<a href="{{site.toast-url}}" target="_blank">{% endif %}
+  {% if site.toast-url %}<a href="{{site.toast-url}}" target="_blank" style="text-decoration: none;">{% endif %}
   <div class="toast" style="background-color: #{{ site.toast-color }};">
     <div class="toast-icon">
       <i class="{{ site.toast-icon }}"></i>
