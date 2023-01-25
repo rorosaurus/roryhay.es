@@ -38,10 +38,6 @@ tag216 can store 888 bytes, or a URL up to 872 characters. It's a little more ex
 ### tag215
 Not super relevant for this project, but I just wanted to mention: tag215 is compatible with [amiibo](https://www.nintendo.com/amiibo/)! You can use them to backup or write amiibo, but you should search for that how-to elsewhere online!
 
-## Programming the card
-
-I personally used [TagWriter](https://play.google.com/store/apps/details?id=com.nxp.nfc.tagwriter&gl=US) on my Android device. You should be able to install many third party NFC read/writing apps from your app store to write the desired information to your card!
-
 ## Etching the card
 
 Since I knew I wanted to etch my card with my laser, I went with the black walnut veneer. The darker pigment will allow the material to absorb more laser light (and energy), so I have the best absorption when etching with my small 1 Watt LaserCube.
@@ -53,5 +49,34 @@ After measuring the dimensions of the card, I designed the card layout in Photos
 *Note: LaserCubes don't give the cleanest results. Since the laser light is arriving on the card at different angles, it's less crisp and focused. You can see the result of this in the thin NFC logo and the smaller phone number text, which is muddied.*
 
 *I'd recommend using a proper full size laser engraver/cutter with a moving XY carriage, if you can find one near you! Then the laser is perfectly perpendicular for the whole engraving! On these lasers, I would recommend starting with low power and high speed, then adjusting the speed lower and power higher with repeated runs on your first card.*
+
+## Programming the card
+
+You should be able to use any third party NFC writer apps from your app store! Decide what you want your NFC card to do, then choose an app to program with! Here's a couple of my favorites:
+
+### NFC TagWriter by NXP
+
+[Google Play](https://play.google.com/store/apps/details?id=com.nxp.nfc.tagwriter&hl=en_US&gl=US), [Apple App Store](https://apps.apple.com/us/app/nfc-tagwriter-by-nxp/id1246143221)
+
+Pros:
+* Works with any field from your contacts app. Include your name, nickname, phone, email, website, notes, and more!
+
+Cons:
+* Kind of clunky to use.
+* Can't create a new contact from scratch.
+    * You MUST have an existing contact with your desired information entered. You can select which fields you want to transfer onto the NFC card.
+
+### NFC Tools by wakdev
+
+[Google Play](https://play.google.com/store/apps/details?id=com.wakdev.wdnfc&hl=en_US&gl=US), [Apple App Store](https://apps.apple.com/us/app/nfc-tools/id1252962749)
+
+Pros:
+* Can create a new contact from scratch, manually entering the desired information.
+* Can add multiple records to your NFC tag. (eg. Record 1: vCard contact info, Record 2: Open a Website)
+
+Cons:
+* Limited contact fields. Only name, company, address, phone, email, and website. No "notes" or other useful fields.
+* Cannot import an existing contact without paid version.
+* Only the first record is opened by Android/iOS (unless you're using an extra app like this one), so extra records aren't really useful.
 
 ## Good luck! I can't wait to see what you make!
