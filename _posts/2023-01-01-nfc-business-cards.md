@@ -50,9 +50,26 @@ After measuring the dimensions of the card, I designed the card layout in Photos
 
 *I'd recommend using a proper full size laser engraver/cutter with a moving XY carriage, if you can find one near you! Then the laser is perfectly perpendicular for the whole engraving! On these lasers, I would recommend starting with low power and high speed, then adjusting the speed lower and power higher with repeated runs on your first card.*
 
-## Programming the card
+## Programming your NFC card
 
-You should be able to use any third party NFC writer apps from your app store! Decide what you want your NFC card to do, then choose an app to program with! Here's a couple of my favorites:
+I suspect you can program your NFC card with your phone!
+
+Android 4.0 (Ice Cream Sandwich) introduced NFC in 2011, and the hardware is usually included on most mid-high end phones. Do a quick search if you aren't sure!
+
+iPhone 7 and later got NFC tag write support in 2014, with iOS 13 or newer.
+
+Next, you can use any third party NFC writer apps from your app store! Decide what you want your NFC card to do, then choose an app to program with!
+
+What can it do? Pick one! First two are my favorites.
+
+* Create a new contact with your information already filled out
+* Open a website URL directly in the browser
+* Automatically connect to a Wi-Fi network or Bluetooth device
+* Launch an app
+* Display some plain text
+* And more!
+
+Here's a couple apps I can recommend tp write the desired tag information:
 
 ### NFC TagWriter by NXP
 
