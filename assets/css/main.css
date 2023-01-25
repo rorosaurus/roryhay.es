@@ -1393,7 +1393,7 @@ a.social-text:visited {
 .calendar {
   border-width: 0;
   height: 89vh;
-  width: 80vw;
+  width: 100%;
 }
 
 .toast {
@@ -1616,10 +1616,6 @@ a.social-text:visited {
     max-width: 80%;
     top: 0px;
     left: 0px;
-  }
-
-  .calendar {
-    width: 95vw;
   }
 }
 
