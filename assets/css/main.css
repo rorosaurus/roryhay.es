@@ -951,7 +951,7 @@ table tfoot td {
   -webkit-border-radius: 100%;
           border-radius: 100%;
   overflow: hidden;
-  background-color: #bbbbbb;
+  background-color: rgba(0 0 0 / 40%);;
 }
 
 .about img {
@@ -1411,7 +1411,7 @@ a.social-text:visited {
   left: 10px;
   width: 220px;
   border-radius: 10px;
-  box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.35);
+  box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.50);
   outline: none;
 }
 
