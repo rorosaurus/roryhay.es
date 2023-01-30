@@ -196,6 +196,7 @@ sup {
 audio,
 video {
   display: inline-block;
+  border-radius: 10px;
 }
 
 /**
@@ -789,6 +790,7 @@ img {
   max-width: 100%;
   vertical-align: middle;
   display: inline-block;
+  border-radius: 10px;
 }
 
 img + em {
