@@ -6,7 +6,7 @@ description: Help the environment and your hustle! # Add post description (optio
 img: blog/nfc-business-cards/nfc-business-card.jpg # Add image post (optional)
 fig-caption: Tap your phone, get my info!  # Add figcaption (optional)
 github-repo: # Add github repo (optional)
-tags: [Maker, Laser, NFC]
+tags: [Maker, Laser, NFC, Web]
 ---
 
 For my latest job hunt, I decided to do away with single-use business cards altogether! I just want to make **one** and carry it with me.
