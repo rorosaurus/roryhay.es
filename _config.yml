@@ -18,14 +18,22 @@ author: Rory Hayes # add your name
 author-img: rory-hayes.jpg # add your photo
 author-subtitle: Software & Computer Engineer # add description
 
-about-author1: Right-to-Repair Evangelist # add description
-about-author2: LED & Laser Lighting Wizard # add description
-about-author3: Infosec/Privacy/Rights Advocate # add description
+about-author-typing: true # exchange about author text with alts using typing effect
+about-author-typing-delay: 7000
+
+about-author1: Maker & Tinkerer # add description
+about-author1-alt: Retro Electronics Modder # add description
+
+about-author2: Right-to-Repair Evangelist # add description
+about-author2-alt: PCB Design & Distributed Art # add description
+
+about-author3: LED & Laser Lighting Wizard # add description
+about-author3-alt: Infosec / Privacy / Rights Advocate # add description
 
 # Social
 social-twitter: # add your Twitter handle
 social-facebook: # add your Facebook handle
-social-calendar: "/calendar" # add your public calendar link
+# social-calendar: "/calendar" # add your public calendar link
 social-github: rorosaurus # add your Github handle
 social-linkedin: roryhayes # add your Linkedin handle
 social-discord: 181592072023703552 # add your discord user ID

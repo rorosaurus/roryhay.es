@@ -26,15 +26,97 @@ layout: default
       {% endif %}
       <ul>
       {% if site.about-author1 %}
-        <li>{{site.about-author1}}</li>
+        <li class="about-author"><span id="about-author1">{{site.about-author1}}</span></li>
       {% endif %}
       {% if site.about-author2 %}
-        <li>{{site.about-author2}}</li>
+        <li class="about-author"><span id="about-author2">{{site.about-author2}}</span></li>
       {% endif %}
       {% if site.about-author3 %}
-        <li>{{site.about-author3}}</li>
+        <li class="about-author"><span id="about-author3">{{site.about-author3}}</span></li>
       {% endif %}
       </ul>
+      {% if site.about-author-typing %}
+        <script src="{{site.url}}/assets/js/typeit.js"></script>
+        <script>
+          let loopCount = 0;
+
+          const typeItInstance1 = new TypeIt("#about-author1", {
+          speed: 90,
+          loop: true,
+          lifeLike: true,
+          deleteSpeed: 35,
+          startDelete: true,
+          cursor: false,
+          startDelay: 0,
+          nextStringDelay: 0,
+          afterString: async function() {
+            typeItInstance1.freeze();
+            window.setTimeout(function () {
+              typeItInstance2.unfreeze(); 
+            }, {{ site.about-author-typing-delay }});
+          }
+        })
+        .delete(null)
+        .type("{{site.about-author1-alt}}")
+        .delete(null)
+        .type("{{site.about-author1}}")
+        .go();
+        typeItInstance1.freeze();
+
+          const typeItInstance2 = new TypeIt("#about-author2", {
+          speed: 80,
+          loop: true,
+          lifeLike: true,
+          deleteSpeed: 25,
+          startDelete: true,
+          cursor: false,
+          startDelay: 0,
+          nextStringDelay: 0,
+          afterString: async function() {
+            typeItInstance2.freeze();
+            window.setTimeout(function () {
+              typeItInstance3.unfreeze(); 
+            }, {{site.about-author-typing-delay}});
+          }
+        })
+        .delete(null)
+        .type("{{site.about-author2-alt}}")
+        .delete(null)
+        .type("{{site.about-author2}}")
+        .go();
+        typeItInstance2.freeze();
+
+        const typeItInstance3 = new TypeIt("#about-author3", {
+          speed: 70,
+          loop: true,
+          lifeLike: true,
+          deleteSpeed: 20,
+          startDelete: true,
+          cursor: false,
+          startDelay: 0,
+          nextStringDelay: 0,
+          afterString: async function() {
+            typeItInstance3.freeze();
+            loopCount++;
+            window.setTimeout(function () {
+              if (loopCount < 1) typeItInstance1.unfreeze(); 
+            }, {{ site.about-author-typing-delay }});
+          }
+        })
+        .delete(null)
+        .type("{{site.about-author3-alt}}")
+        .delete(null)
+        .type("{{site.about-author3}}")
+        .go();
+        typeItInstance3.freeze();
+
+        document.addEventListener("DOMContentLoaded", function () {
+          window.setTimeout(function () {
+            typeItInstance1.unfreeze();
+          }, {{ site.about-author-typing-delay }});
+        });
+        </script>
+      {% endif %}
     </div>
   </header> <!-- End Header -->
   <footer>
