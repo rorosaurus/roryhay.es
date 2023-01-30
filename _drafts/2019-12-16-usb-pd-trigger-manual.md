@@ -1,1 +1,0 @@
-https://github.com/rorosaurus/usb-pd-trigger-manual

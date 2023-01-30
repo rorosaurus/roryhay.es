@@ -6,7 +6,7 @@ description: I designed a small PCB you can use to modify your console. # Add po
 img: blog/nds-lite-usb-c/completed.jpg # Add image post (optional)
 fig-caption: USB-C Gameboy Macro, anyone?  # Add figcaption (optional)
 github-repo: https://github.com/rorosaurus/nds-lite-usb-c # Add github repo (optional)
-tags: [Hardware, PCB, Mods, Gameboy]
+tags: [Hardware, PCB, Mods, Gameboy, USB-C]
 ---
 
 ## The truly universal USB-C dream is finally realized for your Nintendo DS Lite!

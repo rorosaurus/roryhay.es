@@ -6,7 +6,7 @@ description: I designed a small PCB you can use to modify your console. # Add po
 img: blog/gba-sp-usb-c/completed-test.jpg # Add image post (optional)
 fig-caption: Goodbye proprietary charging cable!  # Add figcaption (optional)
 github-repo: https://github.com/rorosaurus/gba-sp-usb-c # Add github repo (optional)
-tags: [Hardware, PCB, Mods, Gameboy]
+tags: [Hardware, PCB, Mods, Gameboy, USB-C]
 ---
 
 ## The truly universal USB-C dream is finally realized for your Game Boy Advance SP!
