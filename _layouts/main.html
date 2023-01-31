@@ -4,16 +4,16 @@ layout: default
 
 <aside class="sidebar">
   {% if site.toast-message %}
-  {% if site.toast-url %}<a href="{{site.toast-url}}" target="_blank" style="text-decoration: none;">{% endif %}
-  <div class="toast" style="background-color: #{{ site.toast-color }};">
-    <div class="toast-icon">
+  {% if site.toast-link %}<a href="{{site.toast-link}}" target="_blank" style="text-decoration: none;">{% endif %}
+  <div class="toast">
+    <div class="toast-icon" style="background: #{{ site.toast-icon-background }};">
       <i class="{{ site.toast-icon }}"></i>
     </div>
-    <div class="toast-body">
+    <div class="toast-body" style="background: #{{ site.toast-message-background }};">
       <span>{{ site.toast-message }}</span>
     </div>
   </div>
-  {% if site.toast-url %}</a>{% endif %}
+  {% if site.toast-link %}</a>{% endif %}
   {% endif %}
     <header>
     <div class="about">
