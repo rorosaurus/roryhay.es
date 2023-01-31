@@ -147,7 +147,67 @@ layout: default
       </ul>
       <ul>
         {% if site.social-vcard %}
-        <li class="vcard"><a href="{{site.social-vcard}}" class="social-text"><i class="far fa-address-card"></i><span class="social-text">&nbsp;&nbsp;vCONTACT</span></a></li>
+        <script>
+          function downloadVCF(filename, text) {
+            var element = document.createElement('a');
+            element.setAttribute('href', 'data:text/vcard;charset=utf-8,' + encodeURIComponent(text));
+            element.setAttribute('download', filename);
+            element.style.display = 'none';
+            document.body.appendChild(element);
+            element.click();
+            document.body.removeChild(element);
+          }
+          function setCookie(cname, cvalue, exdays) {
+            const d = new Date();
+            d.setTime(d.getTime() + (exdays*24*60*60*1000));
+            let expires = "expires="+ d.toUTCString();
+            document.cookie = cname + "=" + cvalue + ";" + expires + ";path=/";
+          }
+          function getCookie(cname) {
+            let name = cname + "=";
+            let decodedCookie = decodeURIComponent(document.cookie);
+            let ca = decodedCookie.split(';');
+            for(let i = 0; i <ca.length; i++) {
+              let c = ca[i];
+              while (c.charAt(0) == ' ') {
+                c = c.substring(1);
+              }
+              if (c.indexOf(name) == 0) {
+                return c.substring(name.length, c.length);
+              }
+            }
+            return "";
+          }
+        </script>
+        <li class="vcard" id="vcard"><a id="vcardLink" href="{{site.social-vcard}}" class="social-text"><i class="far fa-address-card"></i><span class="social-text">&nbsp;&nbsp;vCONTACT</span></a></li>
+        <script>
+          let phoneNum = new URLSearchParams(window.location.search).get("p");
+          if (phoneNum != null) {
+            setCookie("p", phoneNum, 90); // set the phone number cookie for 90 days
+            window.history.replaceState({}, document.title, "/"); // reset the window URL
+          }
+
+          phoneNum = getCookie("p");
+          if (phoneNum != "") { // replace the default vcard with a generated one
+            document.getElementById("vcardLink").removeAttribute("href");
+            document.getElementById("vcard").style.cursor = "pointer";
+            document.getElementById("vcard").addEventListener("click", function(){
+              var text =  "BEGIN:VCARD\n" +
+                          "VERSION:3.0\n" +
+                          "FN;CHARSET=UTF-8:Rory O Hayes\n" +
+                          "N;CHARSET=UTF-8:Hayes;Rory;O;;\n" +
+                          "EMAIL;CHARSET=UTF-8;type=HOME,INTERNET:roryohayes@gmail.com\n" +
+                          "TEL;TYPE=CELL:+1-" + phoneNum + "\n" +
+                          "TITLE;CHARSET=UTF-8:Software & Computer Engineer\n" +
+                          "URL;CHARSET=UTF-8:https://roryhay.es\n" +
+                          "NOTE;CHARSET=UTF-8:I scanned his laser-etched\, wooden NFC business card!\n" +
+                          "REV:2022-12-31T10:20:32.227Z\n" +
+                          "END:VCARD";
+              var filename = "Rory Hayes.vcf";
+              downloadVCF(filename, text);
+            });
+          }
+        </script>
         {% endif %}
         {% if site.social-resume %}
         <li><a href="{{site.social-resume}}" class="social-text" target=“_blank”><i class="far fa-file-alt"></i><span class="social-text">&nbsp;&nbsp;RESUME</span></a></li>
