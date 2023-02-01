@@ -139,10 +139,10 @@ layout: default
           <li class="linkedin"><a href="https://in.linkedin.com/in/{{site.social-linkedin}}" target="_blank"><i class="fab fa-linkedin"></i></a></li>
         {% endif %}
         {% if site.social-discord %}
-          <li class="github"><a href="https://discord.com/users/{{site.social-discord}}" target="_blank"><i class="fab fa-discord"></i></a></li>
+          <li class="discord"><a href="https://discord.com/users/{{site.social-discord}}" target="_blank"><i class="fab fa-discord"></i></a></li>
         {% endif %}
         {% if site.social-email %}
-          <li class="email"><a href="mailto:{{site.social-email}}"><i class="far fa-envelope"></i></a></li>
+          <li class="email"><a href="mailto:{{site.social-email}}"><i class="fas fa-envelope"></i></a></li>
         {% endif %}
       </ul>
       <ul>
@@ -179,7 +179,7 @@ layout: default
             return "";
           }
         </script>
-        <li class="vcard" id="vcard"><a id="vcardLink" href="{{site.social-vcard}}" class="social-text"><i class="far fa-address-card"></i><span class="social-text">&nbsp;&nbsp;vCONTACT</span></a></li>
+        <li class="vcard" id="vcard"><a id="vcardLink" href="{{site.social-vcard}}" class="social-text"><i class="fas fa-address-card"></i><span class="social-text">&nbsp;&nbsp;vCONTACT</span></a></li>
         <script>
           let phoneNum = new URLSearchParams(window.location.search).get("p");
           if (phoneNum != null) {
@@ -210,12 +210,12 @@ layout: default
         </script>
         {% endif %}
         {% if site.social-resume %}
-        <li><a href="{{site.social-resume}}" class="social-text" target=“_blank”><i class="far fa-file-alt"></i><span class="social-text">&nbsp;&nbsp;RESUME</span></a></li>
+        <li><a href="{{site.social-resume}}" class="social-text" target=“_blank”><i class="fas fa-file-alt"></i><span class="social-text">&nbsp;&nbsp;RESUME</span></a></li>
         {% endif %}
       </ul>
     </section> <!-- End Section Contact -->
     <div class="copyright">
-      <p>&copy; {{site.author}} {{site.time | date: '%Y'}}</p>
+      <p>&copy; {{site.author}} {{site.time | date: '%Y'}}&nbsp;<a class="rss" href="{{ site.url }}/feed.xml"><i class="fas fa-rss-square"></i></a></p>
     </div>
   </footer> <!-- End Footer -->
 </aside> <!-- End Sidebar -->
