@@ -1419,7 +1419,7 @@ a.social-text:visited {
   opacity: 0;
   display: table;
   position: absolute;
-  color: rgb(68 68 68);
+  color: rgb(94 94 94);
   animation-name: fadeInOpacity;
   animation-iteration-count: 1;
   animation-timing-function: ease-in;
@@ -1438,7 +1438,7 @@ a.social-text:visited {
   color: white;
   display: table-cell;
   vertical-align: middle;
-  padding: 4px 14px;
+  padding: 4px 12px;
   font-size: 18px;
   text-align: center;
   border-bottom-left-radius: 10px;
