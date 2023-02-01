@@ -1612,7 +1612,7 @@ a.social-text:visited {
         -ms-flex-align: stretch;
             align-items: stretch;
   }
-  .contact-title, .copyright {
+  .contact-title {
     display: none;
   }
 
