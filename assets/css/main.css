@@ -1419,7 +1419,7 @@ a.social-text:visited {
 }
 
 .resume {
-  height: 90vh;
+  height: 89vh;
   width: 100%;
 }
 
@@ -1601,6 +1601,9 @@ a.social-text:visited {
   }
   .sidebar footer {
     margin-bottom: 10px;
+  }
+  .resume {
+    height: 70vh;
   }
   .about {
     text-align: center;

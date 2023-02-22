@@ -41,7 +41,7 @@ social-discord: 181592072023703552 # add your discord user ID
 social-email: roryohayes@gmail.com # add your Email address
 social-vcard: "/assets/files/Rory Hayes.vcf" # add your vcard link
 
-resume: "https://rorosaurus.github.io/resume/Rory%20O%20Hayes%20-%20Resume.pdf" # add your resume link
+resume: "https://github.com/rorosaurus/resume/raw/master/Rory%20O%20Hayes%20-%20Resume.pdf" # add resume
 
 # Disqus
 discus-identifier: # add your discus identifier
