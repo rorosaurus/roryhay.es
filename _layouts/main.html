@@ -4,7 +4,7 @@ layout: default
 
 <aside class="sidebar">
   {% if site.toast-message %}
-  {% if site.toast-link %}<a href="{{site.toast-link}}" style="text-decoration: none;">{% endif %}
+  {% if site.toast-link %}<a href="{{site.toast-link}}" target="_blank" style="text-decoration: none;">{% endif %}
   <div class="toast">
     <div class="toast-icon" style="background: #{{ site.toast-icon-background }};">
       <i class="{{ site.toast-icon }}"></i>
@@ -210,7 +210,7 @@ layout: default
         </script>
         {% endif %}
         {% if site.resume %}
-        <li><a href="/resume" class="social-text"><i class="fas fa-file-alt"></i><span class="social-text">&nbsp;&nbsp;RESUME</span></a></li>
+        <li><a href="{{site.resume}}" target="_blank" class="social-text"><i class="fas fa-file-alt"></i><span class="social-text">&nbsp;&nbsp;RESUME</span></a></li>
         {% endif %}
       </ul>
     </section> <!-- End Section Contact -->
