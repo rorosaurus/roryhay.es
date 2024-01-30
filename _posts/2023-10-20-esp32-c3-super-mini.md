@@ -17,7 +17,9 @@ This tiny board can be had for less than $2.50 and comes in at 18mm x 22.5mm - p
 ## Why's it good for WLED?
 The USB-C connector and PCB traces are robust enough to handle 5V@3A continuously from my testing, so it's an ideal little WLED driver for some small 5V LED projects. As usual, you can get away without a level shifter if your data line is short enough (less than a couple feet). The antenna component has better range than PCB trace antennas too! My biggest concern was that Wifi communication would freeze LED animations for a brief moment, which certainly does happen sometimes - but not always, and only when you're changing things. In my experience, this was not nearly as big of a deal as I worried it might be.
 
-The C3 still has one I2S port, which I was able to confirm works with WLED Audioreactive, or u/Yves-Bazin's [24-way parallel driver for FastLED](https://www.reddit.com/r/FastLED/comments/bjq0sm/new_24way_parallel_driver_for_esp32/). The Super Mini doesn't break out 24 GPIO, but it's pretty cool that you can drive 11 different LED strips directly from this dev board! The BOOT pushbutton is wired to GPIO9, which you can program in WLED to a simple ON/OFF or change animation button.
+The C3 still has one I2S port, which I was able to confirm works with WLED Audioreactive, or u/Yves-Bazin's [24-way parallel driver for FastLED](https://www.reddit.com/r/FastLED/comments/bjq0sm/new_24way_parallel_driver_for_esp32/). The Super Mini doesn't break out 24 GPIO, but it's pretty cool that you can drive 11 different LED strips directly from this dev board! Note that WLED uses NeoPixelBus though, so you're currently [limited to 2 parallel strips on WLED](https://kno.wled.ge/features/multi-strip/).
+
+The BOOT pushbutton is wired to GPIO9, which you can program in WLED to a simple ON/OFF or change animation button.
 
 The best part? The C3 has a USB/Serial interfrace built-in! No extra IC on the dev board increasing the footprint size or cost! Just plug in your Super Mini, navigate to https://install.wled.me, and install WLED on your board in less than 2 minutes! Then it's just a matter of soldering a few wires to your LED strip!
 
