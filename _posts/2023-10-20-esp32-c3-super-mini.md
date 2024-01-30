@@ -1,6 +1,6 @@
 ---
 layout: post
-title: ESP32-C3 Super Mini
+title: New favorite cheap (W)LED controller - ESP32-C3 Super Mini
 date: 2023-10-20 13:32:20 +0300
 description:  My new favorite cheap (W)LED controller! # Add post description (optional)
 img: blog/esp32-c3-super-mini.jpg # Add image post (optional)
