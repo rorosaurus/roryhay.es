@@ -31,5 +31,6 @@ The best part? The C3 has a USB/Serial interfrace built-in! No extra IC on the d
 In my opinion these are relatively minor tradeoffs for many of my projects, making the Super Mini my new favorite cheap microcontroller! Soon I might even design my own dev board to address the battery power drawback - stay tuned!
 
 ## Links
-[Super Mini Pinout](https://www.nologo.tech/product/esp32/esp32C3SuperMini.html)
-[AliExpress](https://www.aliexpress.us/item/3256805910402296.html)
+
+* [Super Mini Pinout](https://www.nologo.tech/product/esp32/esp32C3SuperMini.html)
+* [AliExpress](https://www.aliexpress.us/item/3256805910402296.html)
