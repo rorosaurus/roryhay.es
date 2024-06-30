@@ -34,7 +34,7 @@ So what went wrong here? What can we learn about the importance of good RF desig
 
 Welp, that crystal oscillator is now awfully close I think! In fact, the section on typical layout problems [specifically defines our case](https://docs.espressif.com/projects/esp-hardware-design-guidelines/en/latest/esp32c3/pcb-layout-design.html#tx-performance-is-not-bad-but-the-rx-sensitivity-is-low):
 
->4. TX performance is not bad, but the RX sensitivity is low.
+>TX performance is not bad, but the RX sensitivity is low.
 >
 >Analysis: Good TX performance indicates proper RF impedance matching. Poor RX sensitivity may result from external coupling to the antenna. For instance, the crystal signal harmonics could couple to the antenna.
 >
@@ -48,6 +48,8 @@ Some people from the WLED Discord have even seen this type of poor performance o
 On AliExpress, I'd recommend **ordering a single board first** to confirm what you receive before a bulk order. In future orders, **stick with a seller you've had good results with** - don't be tempted by a new store that saves you a few pennies.
 
 Of course, there's no guarantee that what you order next time is identical. **Make sure your order has the "AliExpress Choice Commitment"**, where AliExpress will step in to help you resolve refund/returns if needed.
+
+If you find a listing that uses this broken design, please leave a review and message the seller directly! You can link them to this post if you'd like. I've contacted the seller of my broken boards and the customer service rep told me they'd pass this information on to the engineering team. 🤞 Hopefully we can reduce the chance of people buying these boards accidentally!
 
 ## You can't trust the listing photos
 [Here's the listing where I got broken boards.](https://www.aliexpress.us/item/3256806148201179.html) Notice that the listing uses pictures from the original, working board design! What arrives isn't necessarily what is pictured!
