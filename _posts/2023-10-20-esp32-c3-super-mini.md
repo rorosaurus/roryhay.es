@@ -3,13 +3,13 @@ layout: post
 title: Cheap (W)LED controller - ESP32-C3 Super Mini
 date: 2023-10-20 13:32:20 +0300
 description:  My new favorite cheap (W)LED controller! # Add post description (optional)
-img: blog/esp32-c3-super-mini.jpg # Add image post (optional)
+img: blog/esp32-c3-super-mini/esp32-c3-super-mini.jpg # Add image post (optional)
 fig-caption: Tiny but powerful!  # Add figcaption (optional)
 github-repo: # Add github repo (optional)
-tags: [Maker, Soldering, LEDs, ESP32]
+tags: [Maker, Soldering, LEDs, ESP32, WLED]
 ---
 
-I'm always on the lookout for a new favorite microcontroller. The ESP family has been my favorite for quite some time now, and the new C3 chip offers quite a lot in a super cheap package! I assume that's due to its RISC-V architecture reducing licensing costs for espressif.
+I'm always on the lookout for a new favorite microcontroller. The ESP family has been my favorite for quite some time now, and the new C3 chip offers quite a lot in a super cheap package! I assume that's due to its RISC-V architecture reducing licensing costs for Espressif.
 
 ## What's it got?
 This tiny board can be had for less than $2.50 and comes in at 18mm x 22.5mm - perfect for tiny projects! The C3 only has a single CPU core @ 160MHz, which is a downgrade from the 240MHz dual core LX6 CPU on the original ESP32. Connectivity-wise, the C3 still has 2.4 GHz Wi-Fi (802.11b/g/n) and Bluetooth® 5 (LE). This Super Mini dev board uses the optional 4 MB flash integrated in the C3's tiny QFN32 (5×5 mm) package.
@@ -19,9 +19,9 @@ The USB-C connector and PCB traces are robust enough to handle 5V@3A continuousl
 
 The C3 still has one I2S port, which I was able to confirm works with WLED Audioreactive, or u/Yves-Bazin's [24-way parallel driver for FastLED](https://www.reddit.com/r/FastLED/comments/bjq0sm/new_24way_parallel_driver_for_esp32/). The Super Mini doesn't break out 24 GPIO, but it's pretty cool that you can drive 11 different LED strips directly from this dev board! Note that WLED uses NeoPixelBus though, so you're currently [limited to 2 parallel strips on WLED](https://kno.wled.ge/features/multi-strip/).
 
-The BOOT pushbutton is wired to GPIO9, which you can program in WLED to a simple ON/OFF or change animation button.
+The BOOT pushbutton is wired to GPIO9, which you can program in WLED to a simple ON/OFF or change animation button. If you're having trouble flashing firmware, hold the BOOT button before plugging in your USB and make sure you're using a cable that supports data!
 
-The best part? The C3 has a USB/Serial interfrace built-in! No extra IC on the dev board increasing the footprint size or cost! Just plug in your Super Mini, navigate to https://install.wled.me, and install WLED on your board in less than 2 minutes! Then it's just a matter of soldering a few wires to your LED strip!
+The best part? The C3 has a USB/Serial interface built-in! No extra IC on the dev board increasing the footprint size or cost! Just plug in your Super Mini, navigate to https://install.wled.me, and install WLED on your board in less than 2 minutes! Then it's just a matter of soldering a few wires to your LED strip!
 
 ## What's lacking
 * No battery power option or management
