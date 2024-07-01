@@ -25,7 +25,7 @@ So what went wrong here? What can we learn about the importance of good RF desig
 * Unmarked LDO for 3.3V
   * Tested with a 1000uF capacitor across 3.3V and GND and verified poor Wi-Fi was not due to this component
 * PCB panelization via mouse bites instead of V-Cut
-  * I can't imagine this affects anything, but it does hint to a wholly different PCB design - so let's look closer!
+  * I can't imagine this affects anything, but it does hint to a wholly different PCB design - so [let's look closer!](/assets/img/blog/esp32-c3-super-mini/esp32-c3-super-mini-flaw.jpg)
 * Some components are laid out slightly differently. Specifically the oscillator in the top right and some capacitors in the top left are significantly closer to the antenna...
 * Despite being the same overall dimensions, this board has a **full 1mm less clearance for the antenna section!**
 
