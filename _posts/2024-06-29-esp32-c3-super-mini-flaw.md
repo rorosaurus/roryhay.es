@@ -19,13 +19,18 @@ So what went wrong here? What can we learn about the importance of good RF desig
 
 # Investigating the fault
 
+{% include image.html 
+    file="/assets/img/blog/esp32-c3-super-mini/esp32-c3-super-mini-flaw.jpg"
+    fig-caption="Let's look closer and compare the working and faulty boards"
+%}
+
 ## Differences I found on the faulty boards
 * Can't connect to Wi-Fi, but can host its own AP fairly reliably.
   * Perhaps transmit performance is ok, but receive is poor?
 * Unmarked LDO for 3.3V
   * Tested with a 1000uF capacitor across 3.3V and GND and verified poor Wi-Fi was not due to this component
 * PCB panelization via mouse bites instead of V-Cut
-  * I can't imagine this affects anything, but it does hint to a wholly different PCB design - so [let's look closer!](/assets/img/blog/esp32-c3-super-mini/esp32-c3-super-mini-flaw.jpg)
+  * I can't imagine this affects anything, but it does hint to a wholly different PCB design...
 * Some components are laid out slightly differently. Specifically the oscillator in the top right and some capacitors in the top left are significantly closer to the antenna...
 * Despite being the same overall dimensions, this board has a **full 1mm less clearance for the antenna section!**
 
@@ -44,6 +49,8 @@ Combine that with the 1mm reduced clearance for the antenna, and it's no wonder 
 
 Some people from the WLED Discord have even seen this type of poor performance on S3 Zero models, where the clearance is reduced but the crystal is distant - leading me to think this spacing is the primary, but not the only, culprit.
 
+A Redditor also [shared some additional insights and photos](https://www.reddit.com/r/esp32/comments/1ecq8h5/warning_about_aliexpress_esp32_c3_mini_modules/lfei178/) regarding their own experience.
+
 # How to avoid buying bad boards
 On AliExpress, I'd recommend **ordering a single board first** to confirm what you receive before a bulk order. In future orders, **stick with a seller you've had good results with** - don't be tempted by a new store that saves you a few pennies.
 
@@ -51,10 +58,15 @@ Of course, there's no guarantee that what you order next time is identical. **Ma
 
 If you find a listing that uses this broken design, please leave a review and message the seller directly! You can link them to this post if you'd like. I've contacted the seller of my broken boards and the customer service rep told me they'd pass this information on to the engineering team. 🤞 Hopefully we can reduce the chance of people buying these boards accidentally!
 
-## You can't trust the listing photos
+## Don't trust the listing photos
 [Here's the listing where I got broken boards.](https://www.aliexpress.us/item/3256806148201179.html) Notice that the listing uses pictures from the original, working board design! What arrives isn't necessarily what is pictured!
+
+## Know what else to look out for
+There are even some listings where sellers are populating C3's [without the necessary 4MB flash](https://www.reddit.com/r/esp32/comments/1ecq8h5/warning_about_aliexpress_esp32_c3_mini_modules/)! I assume they're using the [ESP32-C3](https://www.digikey.com/en/products/detail/espressif-systems/ESP32-C3/14115579) SoC instead of [ESP32-C3FH4](https://www.digikey.com/en/products/detail/espressif-systems/ESP32-C3FH4/14115592) - an extra profit of ~$0.30 per unit for each customer who doesn't notice your scam and return in time! 🙄
 
 ## Purchase from vetted Sellers
 Ask others in the community what sellers/listings they use. Here's what I have so far:
-* [My original AliExpress purchase](https://www.aliexpress.us/item/3256805910402296.html)
+* [My original, working AliExpress purchase](https://www.aliexpress.us/item/3256805910402296.html)
 * [TENSTAR ROBOT Store (recommended by WLED Discord users)](https://www.aliexpress.us/item/3256805781327184.html)
+
+## Be safe and smart out there friends! Good luck and Stay Blinky! 💡
