@@ -67,6 +67,6 @@ There are even some listings where sellers are populating C3's [without the nece
 ## Purchase from vetted Sellers
 Ask others in the community what sellers/listings they use. Here's what I have so far:
 * [My original, working AliExpress purchase](https://www.aliexpress.us/item/3256805910402296.html)
-* [TENSTAR ROBOT Store (recommended by WLED Discord users)](https://www.aliexpress.us/item/3256805781327184.html)
+* [TENSTAR ROBOT Store (recommended by WLED Discord users - I buy here now as well)](https://www.aliexpress.us/item/3256805781327184.html)
 
 ## Be safe and smart out there friends! Good luck and Stay Blinky! 💡

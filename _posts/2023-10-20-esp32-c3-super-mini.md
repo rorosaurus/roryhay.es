@@ -33,6 +33,6 @@ In my opinion these are relatively minor tradeoffs for many of my projects, maki
 ## Links
 
 * [Super Mini Pinout](https://www.nologo.tech/product/esp32/esp32C3SuperMini.html)
-* [AliExpress](https://www.aliexpress.us/item/3256805910402296.html)
+* [AliExpress](https://www.aliexpress.us/item/3256805781327184.html)
 
 ## Careful when purchasing! [Some sellers are selling broken Super Mini boards!](/blog/esp32-c3-super-mini-flaw)
